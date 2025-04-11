@@ -1,1 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Basic Web Page</title>
+        
+        <style>
+            Body {background-color: lightblue; }
+            h1 {font-size:"50px"; font-family: "Monaco", "Courier New", monospace; padding:10px; text-align:center;}
+            #backarrow{
+                position:fixed;
+                bottom:0;
+                right:0;
+            }
+            #description{
+                position: static;
+                border:2px black;
+                width:1200px;
+                height:170px;
+                top:170px;
+                right:15px
+            }
+            #caresheet{
+                position: absolute;
+                border:2px solid black;
+                background-color: white;
+                width:200px;
+                height:400px;
+                top:170px;
+                left:1220px;
+                margin-right: 20px;
+            }
+            #caresheettitle{
+                position: static;
+                text-align: center;
+                background-color: black;
+                color: white;
+                width: 200px;
+                height: 20px;
+                top:0px;
+                left:0px;
+            }
 
+            .img1{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            
+        </style>
+    </head>
+    <body>
+        
+        <h1>Welcome to the Crab page my love!</h1>
+        <div id="description">
+        <h2>Description</h2>
+        <hr noshade>       
+        <p>
+          Crabs are crustaceans known for their hard exoskeleton, two strong claws, and a wide, flat body. They typically move sideways due to the unique structure of their legs. Crabs are found in a variety of environments, including oceans, freshwater rivers, and even on land. With over 6,000 species, they range greatly in size and appearance—from tiny pea crabs to the massive coconut crab. Crabs play a vital role in their ecosystems, acting as both predators and scavengers, helping to keep their habitats clean and balanced. They are also an important food source for many animals and humans. They are also my husband, Mikaela's favorite lil guy. <3
+        </p>
+        </div>
+
+        <div id="description">
+        <h2>Behavior</h2>
+        <hr noshade>      
+        <p>
+          Crabs display a wide range of behaviors depending on the species and environment. They are generally territorial and may use their claws to communicate, fight, or attract mates. Many crabs are scavengers, feeding on dead animals and plant material, while others actively hunt smaller prey. They often hide in burrows or crevices to avoid predators and may emerge at night to feed. Some species are social and live in large groups, while others are more solitary. Mating behaviors often involve complex claw displays and rituals.
+        </p>
+        </div>
+            
+        <div id="caresheet">
+            <div id="caresheettitle">Crab</div>
+            <img class="img1" src="crab.png" alt="Crab Image" style="width:100px;height:100px;">
+            <p><strong>Tank Size:</strong> 5-20 gallons for smaller crabs<br><strong>Number of Fish in a Tank:</strong> At least 3<br><strong>Lifespan:</strong> 
+            5-15 years<br><strong>Water temperature:</strong> 70°F to 82°F<br><strong>pH level:</strong> 7.5 to 8.0
+            <br><strong>Water hardness:</strong> 0 to 10 KH<br><strong>Diet:</strong> Freeze dried shrimp, plankton, algae, beef, seaweed, fruits, and leafy vegetables</p>
+        </div>
+
+        <div id="backarrow"><img src="backarrow-removebg-preview.png" alt="Back Arrow" style="float:right;width:100px;height:100px;" usemap="#arrowmap"></div>
+        
+        <map name="arrowmap">
+            <area shape="rect" coords="0,0,100,100" alt="back arrow" href="index.html">
+        </map>
+        
+    </body>
+</html>
