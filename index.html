@@ -11,13 +11,21 @@
               margin-left: auto;
               margin-right: auto;
         }
+        #backgroundMap{
+            height: 800px;
+            width: 800px;
+            background-color: black;
+        }
+
         </style>
     </head>
     <body>
 
         <h1>Click on any of the fish to learn more!</h1>
         
-        <img class="center" src="saltwaterFishMap.png" alt="Fish Map" style="width:768px;height:768px;" usemap="#saltwaterfishmap">
+        <div id="backgroundMap">
+            <img class="center" src="saltwaterFishMap.png" alt="Fish Map" style="width:768px;height:768px;" usemap="#saltwaterfishmap">
+        </div>
         
         <map name="saltwaterfishmap">
             <area shape="rect" coords="453,258,498,330" alt="fish" href="codPage.html">
