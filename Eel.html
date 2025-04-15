@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Basic Web Page</title>
+        
+        <style>
+            Body {background-color: lightblue; }
+            h1 {font-size:"50px"; font-family: "Monaco", "Courier New", monospace; padding:10px; text-align:center;}
+            #backarrow{
+                position:fixed;
+                bottom:0;
+                right:0;
+            }
+            #description{
+                position: static;
+                border:2px black;
+                width:1200px;
+                height:220px;
+                top:170px;
+                right:15px
+            }
+            #caresheet{
+                position: absolute;
+                border:2px solid black;
+                background-color: white;
+                width:200px;
+                height:400px;
+                top:170px;
+                left:1220px;
+                margin-right: 20px;
+            }
+            #caresheettitle{
+                position: static;
+                text-align: center;
+                background-color: black;
+                color: white;
+                width: 200px;
+                height: 20px;
+                top:0px;
+                left:0px;
+            }
+
+            .img1{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 5px;
+            }
+            
+        </style>
+    </head>
+    <body>
+        
+        <h1>Welcome to the Eel page!</h1>
+        <div id="description">
+        <h2>Description</h2>
+        <hr noshade>       
+        <p>
+            Eels are long, snake-like fish known for their unique appearance and fascinating behavior. With smooth, elongated bodies and a slimy, scale-less skin, they can range in color from dark green to brown or gray, blending easily into their underwater surroundings. Found in both freshwater and saltwater environments around the world, eels are highly adaptable and can live in rivers, oceans, and even migrate between the two.
+
+            One of the most well-known species is the electric eel, which can generate powerful electric shocks to stun prey or defend itself. Though technically not a "true" eel, it's become iconic in popular culture. Most true eels belong to the order *Anguilliformes*, and among them, the freshwater eel (*Anguilla anguilla* in Europe and *Anguilla rostrata* in North America) is famous for its mysterious life cycle—they hatch in the Sargasso Sea, then migrate thousands of miles to rivers and streams to grow, before returning to the sea to spawn and die.
+
+            Eels are carnivorous, often feeding on fish, crustaceans, and worms. Their nocturnal habits and elusive nature have made them both a subject of scientific intrigue and myth across cultures. In cuisine, eels are considered a delicacy in many parts of the world, from Japanese unagi to European jellied eel.
+
+            Strange, slippery, and mysterious—eels are truly one of the ocean’s most intriguing creatures.
+        </p>
+        </div>
+
+        <div id="description">
+        <h2>Behavior</h2>
+        <hr noshade>      
+        <p>
+            Eel behavior is as fascinating and mysterious as their appearance. Most eels are solitary and secretive, often hiding in crevices, burrows, or under rocks during the day and becoming more active at night. This nocturnal lifestyle helps them avoid predators and surprise their prey. They’re stealthy hunters, using their excellent sense of smell to track down food, which includes small fish, crustaceans, worms, and other marine creatures.
+
+            Many eels are bottom dwellers, slowly wriggling through sand and mud or weaving through coral reefs in search of a meal. They rely on sudden bursts of speed and a quick strike to catch prey. Some species, like moray eels, have a second set of jaws (called pharyngeal jaws) that shoot forward to pull prey into their throat—a rare and dramatic feeding adaptation.
+
+            Socially, eels are generally not aggressive unless threatened or defending a hiding spot. However, in captivity or in dense environments, they can become territorial. Some eels, like electric eels, use electrical pulses to navigate, communicate, or hunt, making their behavior even more complex.
+
+            One of the most mysterious aspects of eel behavior is their migration. Freshwater eels like the European and American eels undergo long, once-in-a-lifetime journeys to the Sargasso Sea to spawn. Scientists still don’t fully understand how they navigate across thousands of miles of open ocean, or what exactly happens during their deep-sea spawning.
+
+            Overall, eel behavior is shaped by stealth, survival, and strange secrets that science is still trying to fully uncover.
+        </p>
+        </div>
+            
+        <div id="caresheet">
+            <div id="caresheettitle">Eel</div>
+            <img class="img1" src="squid.png" alt="Squid Image" style="width:100px;height:100px;">
+            <p><strong>Tank Size:</strong> 50+<br><strong>Number of Fish in a Tank:</strong> 1+<br><strong>Lifespan:</strong> 
+            15-20 years<br><strong>Water temperature:</strong> 64°F to 72°F<br><strong>pH level:</strong> 6.5 to 7.5
+            <br><strong>Water hardness:</strong> 6 to 25 dKH<br><strong>Diet:</strong> fish, crustaceans, and mollusks</p>
+        </div>
+
+        <div id="backarrow"><img src="backarrow-removebg-preview.png" alt="Back Arrow" style="float:right;width:100px;height:100px;" usemap="#arrowmap"></div>
+        
+        <map name="arrowmap">
+            <area shape="rect" coords="0,0,100,100" alt="back arrow" href="index.html">
+        </map>
+        
+    </body>
+</html>
