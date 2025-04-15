@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Basic Web Page</title>
+        
+        <style>
+            Body {background-color: lightblue; }
+            h1 {font-size:"50px"; font-family: "Monaco", "Courier New", monospace; padding:10px; text-align:center;}
+            #backarrow{
+                position:fixed;
+                bottom:0;
+                right:0;
+            }
+            #description{
+                position: static;
+                border:2px black;
+                width:1200px;
+                height:220px;
+                top:170px;
+                right:15px
+            }
+            #caresheet{
+                position: absolute;
+                border:2px solid black;
+                background-color: white;
+                width:200px;
+                height:400px;
+                top:170px;
+                left:1220px;
+                margin-right: 20px;
+            }
+            #caresheettitle{
+                position: static;
+                text-align: center;
+                background-color: black;
+                color: white;
+                width: 200px;
+                height: 20px;
+                top:0px;
+                left:0px;
+            }
+
+            .img1{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 5px;
+            }
+            
+        </style>
+    </head>
+    <body>
+        
+        <h1>Welcome to the Clam page!</h1>
+        <div id="description">
+        <h2>Description</h2>
+        <hr noshade>       
+        <p>
+            Clams are a type of bivalve mollusk found in both freshwater and saltwater environments around the world. They have a soft, edible body enclosed within a hard, hinged shell made of calcium carbonate. Clams burrow into sand or mud on the ocean floor, where they filter-feed by drawing in water and extracting plankton and other small particles for nourishment.
+
+            There are many species of clams, ranging in size from tiny specimens to the large geoduck. Some of the most common edible varieties include littlenecks, cherrystones, and quahogs. Clams are popular in a wide range of cuisines and can be eaten raw, steamed, baked, or added to soups like clam chowder.
+
+            Beyond their culinary uses, clams play an important ecological role by helping to maintain water quality through their filter-feeding behavior. They are also a key part of marine food webs, serving as prey for fish, birds, and marine mammals.
+        </p>
+        </div>
+
+        <div id="description">
+        <h2>Behavior</h2>
+        <hr noshade>      
+        <p>
+            Clam behavior is relatively simple but fascinating, especially considering their lack of a centralized brain. Most clams spend their lives buried in sand, mud, or gravel, using a muscular foot to dig and anchor themselves beneath the surface. This burrowing helps protect them from predators and harsh environmental conditions.
+
+            Clams are filter feeders—they extend a siphon (a tube-like structure) up to the water’s surface to draw in water. Inside, they use gills not only for breathing but also to filter out microscopic plankton and organic particles to eat. They can open and close their shells using strong adductor muscles, snapping shut quickly when they sense danger.
+
+            While clams are mostly stationary, some species can move slowly by extending their foot and dragging themselves along the seafloor. Juvenile clams, especially, may use this behavior to find a suitable place to settle. Clams also respond to environmental cues like tides, light, and temperature, often syncing their feeding and movement patterns with tidal cycles.
+
+            Overall, clam behavior is centered around survival—burrowing, filter-feeding, and avoiding predation in a relatively passive but effective way.
+        </p>
+        </div>
+            
+        <div id="caresheet">
+            <div id="caresheettitle">Clam</div>
+            <img class="img1" src="clam.png" alt="Clam Image" style="width:100px;height:100px;">
+            <p><strong>Tank Size:</strong> 5 gallons for 1 clam<br><strong>Number of Fish in a Tank:</strong> Any number<br><strong>Lifespan:</strong> 
+            30+ years<br><strong>Water temperature:</strong> 60°F to 80°F<br><strong>pH level:</strong> 7.0 to 8.0
+            <br><strong>Water hardness:</strong> 5 to 20 KH<br><strong>Diet:</strong> phytoplankton, zooplankton, and algae</p>
+        </div>
+
+        <div id="backarrow"><img src="backarrow-removebg-preview.png" alt="Back Arrow" style="float:right;width:100px;height:100px;" usemap="#arrowmap"></div>
+        
+        <map name="arrowmap">
+            <area shape="rect" coords="0,0,100,100" alt="back arrow" href="index.html">
+        </map>
+        
+    </body>
+</html>
