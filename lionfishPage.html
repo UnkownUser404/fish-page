@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Basic Web Page</title>
+        
+        <style>
+            Body {background-color: lightblue; }
+            h1 {font-size:"50px"; font-family: "Monaco", "Courier New", monospace; padding:10px; text-align:center;}
+            #backarrow{
+                position:fixed;
+                bottom:0;
+                right:0;
+            }
+            #description{
+                position: static;
+                border:2px black;
+                width:1200px;
+                height:220px;
+                top:170px;
+                right:15px
+            }
+            #caresheet{
+                position: absolute;
+                border:2px solid black;
+                background-color: white;
+                width:200px;
+                height:400px;
+                top:170px;
+                left:1220px;
+                margin-right: 20px;
+            }
+            #caresheettitle{
+                position: static;
+                text-align: center;
+                background-color: black;
+                color: white;
+                width: 200px;
+                height: 20px;
+                top:0px;
+                left:0px;
+            }
+
+            .img1{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 5px;
+            }
+            
+        </style>
+    </head>
+    <body>
+        
+        <h1>Welcome to the Lionfish page!</h1>
+        <div id="description">
+        <h2>Description</h2>
+        <hr noshade>       
+        <p>
+            Lionfish are strikingly beautiful but venomous marine fish known for their flowing, fan-like fins and bold stripes. Native to the Indo-Pacific region, they have become invasive in the Atlantic Ocean, Gulf of Mexico, and Caribbean Sea, where they pose a significant threat to local ecosystems.
+
+            Easily recognizable, lionfish have red, white, and brown vertical bands across their bodies and long, spiny fins that resemble a lion’s mane—hence the name. These spines deliver venom capable of causing intense pain, swelling, and even nausea in humans, though they are rarely fatal.
+
+            Lionfish are skilled predators, feeding on a wide variety of smaller fish and crustaceans. They reproduce rapidly and have few natural predators in invaded areas, making them a major concern for marine conservation. Efforts to control their populations include organized culling, spearfishing tournaments, and promoting them as a sustainable seafood option.
+
+            Despite their danger, lionfish are popular in home aquariums due to their exotic appearance, but they require careful handling and experienced care.
+        </p>
+        </div>
+
+        <div id="description">
+        <h2>Behavior</h2>
+        <hr noshade>      
+        <p>
+            Lionfish are fascinating but formidable creatures known for their striking appearance and unique behaviors. Native to the Indo-Pacific, these fish are highly territorial and often solitary, except during mating seasons. They exhibit a slow, deliberate swimming style, often using their large, fan-like pectoral fins to corner and trap prey. Lionfish are ambush predators, relying on stealth and lightning-fast strikes to capture small fish, shrimp, and other crustaceans.
+
+            One particularly interesting aspect of their behavior is how they hunt cooperatively in small groups, which is rare for solitary predators. They use fin-flaring and subtle herding tactics to confuse and corral prey, making it easier to strike. Lionfish are also known for their boldness—they show little fear of larger predators or divers, which contributes to their success as an invasive species in places like the Atlantic and Caribbean.
+
+            Despite their elegant appearance, lionfish are venomous. Their spines deliver a painful sting that they use defensively rather than offensively. This venom deters most would-be predators, giving them a powerful edge in environments where they don't have natural enemies.
+        </p>
+        </div>
+            
+        <div id="caresheet">
+            <div id="caresheettitle">Lionfish</div>
+            <img class="img1" src="lionfish.png" alt="Lionfish Image" style="width:100px;height:100px;">
+            <p><strong>Tank Size:</strong> 50+ gallons<br><strong>Number of Fish in a Tank:</strong> 1, if more than 1 add more gallons<br><strong>Lifespan:</strong> 
+            20 years<br><strong>Water temperature:</strong> 74°F to 80°F<br><strong>pH level:</strong> 8.1 to 8.4
+            <br><strong>Water hardness:</strong> 8 to 12 KH<br><strong>Diet:</strong> small fish, invertebrates and mollusks</p>
+        </div>
+
+        <div id="backarrow"><img src="backarrow-removebg-preview.png" alt="Back Arrow" style="float:right;width:100px;height:100px;" usemap="#arrowmap"></div>
+        
+        <map name="arrowmap">
+            <area shape="rect" coords="0,0,100,100" alt="back arrow" href="index.html">
+        </map>
+        
+    </body>
+</html>
