@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Basic Web Page</title>
+        
+        <style>
+            Body {background-color: lightblue; }
+            h1 {font-size:"50px"; font-family: "Monaco", "Courier New", monospace; padding:10px; text-align:center;}
+            #backarrow{
+                position:fixed;
+                bottom:0;
+                right:0;
+            }
+            #description{
+                position: static;
+                border:2px black;
+                width:1200px;
+                height:220px;
+                top:170px;
+                right:15px
+            }
+            #caresheet{
+                position: absolute;
+                border:2px solid black;
+                background-color: white;
+                width:200px;
+                height:400px;
+                top:170px;
+                left:1220px;
+                margin-right: 20px;
+            }
+            #caresheettitle{
+                position: static;
+                text-align: center;
+                background-color: black;
+                color: white;
+                width: 200px;
+                height: 20px;
+                top:0px;
+                left:0px;
+            }
+
+            .img1{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            
+        </style>
+    </head>
+    <body>
+        
+        <h1>Welcome to the Lobster page!</h1>
+        <div id="description">
+        <h2>Description</h2>
+        <hr noshade>       
+        <p>
+             Lobsters are marine crustaceans known for their hard shells, long bodies, and large claws. They typically live on the ocean floor in rocky or muddy environments. Lobsters are most active at night and are scavengers, feeding on fish, mollusks, and other small sea creatures. They play a key role in ocean ecosystems and are also a popular seafood delicacy. Their shells turn bright red when cooked, though they are usually brown, green, or bluish in the wild.
+        </p>
+        </div>
+
+        <div id="description">
+        <h2>Behavior</h2>
+        <hr noshade>      
+        <p>
+            Lobsters are mostly solitary, bottom-dwelling creatures that prefer to live in crevices or burrows in rocky, coastal environments. They're generally nocturnal, meaning they’re most active during the night. During the day, they stay hidden to avoid predators.
+
+            One of the most notable aspects of lobster behavior is their territorial nature. Males, in particular, can be aggressive and often fight to defend their shelters. These fights are mostly ritualistic and involve displays of strength using their claws—especially the larger "crusher" claw. Once dominance is established, the winner gets to keep the shelter, while the loser retreats.
+
+            Lobsters communicate through a combination of body movements and chemical signals. They have poor eyesight, so they rely heavily on their antennae and chemical receptors to navigate and interact with their environment.
+
+            Molting is another key behavioral trait. Since their hard shells don’t grow with them, lobsters periodically shed their exoskeletons in a process called molting. This is a vulnerable time, as they’re soft and exposed to predators until the new shell hardens. Interestingly, lobsters can regrow lost limbs during molting cycles.
+
+            Feeding-wise, lobsters are omnivorous scavengers. They'll eat live prey like clams, worms, or small fish but won’t hesitate to munch on decaying matter as well. Their diet helps maintain the health of their ecosystems by cleaning up the seafloor.
+
+            Social behaviors also come into play during mating. After a dominant male secures a shelter, females will seek him out to mate. But first, a female must molt—since mating only happens when her shell is soft. She'll live in the male’s den for a short period, mate, and then leave to harden her shell and eventually lay eggs.
+
+            All in all, lobsters lead fascinating, complex lives beneath the surface, balancing fierce independence with just enough social interaction to keep their species thriving.
+        </p>
+        </div>
+            
+        <div id="caresheet">
+            <div id="caresheettitle">Lobster</div>
+            <img class="img1" src="lobster.png" alt="Lobster Image" style="width:100px;height:100px;">
+            <p><strong>Tank Size:</strong> at least five gallons<br><strong>Number of Fish in a Tank:</strong> Any number<br><strong>Lifespan:</strong> 
+            12 years<br><strong>Water temperature:</strong> 66°F to 77°F<br><strong>pH level:</strong> 6.5 to 8.5
+            <br><strong>Water hardness:</strong> 5 to 20 KH<br><strong>Diet:</strong> Microscopic organisms</p>
+        </div>
+
+        <div id="backarrow"><img src="backarrow-removebg-preview.png" alt="Back Arrow" style="float:right;width:100px;height:100px;" usemap="#arrowmap"></div>
+        
+        <map name="arrowmap">
+            <area shape="rect" coords="0,0,100,100" alt="back arrow" href="index.html">
+        </map>
+        
+    </body>
+</html>
