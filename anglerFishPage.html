@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Basic Web Page</title>
+        
+        <style>
+            Body {background-color: lightblue; }
+            h1 {font-size:"50px"; font-family: "Monaco", "Courier New", monospace; padding:10px; text-align:center;}
+            #backarrow{
+                position:fixed;
+                bottom:0;
+                right:0;
+            }
+            #description{
+                position: static;
+                border:2px black;
+                width:1200px;
+                height:220px;
+                top:170px;
+                right:15px
+            }
+            #caresheet{
+                position: absolute;
+                border:2px solid black;
+                background-color: white;
+                width:200px;
+                height:400px;
+                top:170px;
+                left:1220px;
+                margin-right: 20px;
+            }
+            #caresheettitle{
+                position: static;
+                text-align: center;
+                background-color: black;
+                color: white;
+                width: 200px;
+                height: 20px;
+                top:0px;
+                left:0px;
+            }
+
+            .img1{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 5px;
+            }
+            
+        </style>
+    </head>
+    <body>
+        
+        <h1>Welcome to the Anglerfish page!</h1>
+        <div id="description">
+        <h2>Description</h2>
+        <hr noshade>       
+        <p>
+            The anglerfish is one of the deep sea’s most bizarre and fascinating creatures. Known for its eerie appearance and unique hunting method, this fish thrives in the pitch-black depths of the ocean, often more than a mile below the surface. The most iconic feature of the anglerfish is the bioluminescent lure that dangles from its head—an extension of its dorsal spine tipped with glowing bacteria. This “fishing rod” is used to attract unsuspecting prey in the darkness.
+
+            Female anglerfish, which are significantly larger than their male counterparts, are the ones that sport this glowing lure. Males, on the other hand, are tiny and have a peculiar life strategy: they latch onto females, fusing with their bodies and essentially becoming permanent, parasitic mates.
+
+            With their gaping jaws, needle-like teeth, and ghostly glow, anglerfish are the stuff of deep-sea legend—eerie reminders of how life adapts to even the most extreme environments.
+        </p>
+        </div>
+
+        <div id="description">
+        <h2>Behavior</h2>
+        <hr noshade>      
+        <p>
+            Anglerfish display a range of fascinating behaviors, most notably their use of bioluminescent lures to attract prey in the pitch-black depths of the ocean. The glowing lure, produced by bacteria, draws unsuspecting fish and invertebrates towards the anglerfish, which ambushes them with a rapid strike using its large, tooth-filled mouth. Anglerfish also exhibit a unique mating behavior, where the much smaller male latches onto the female and becomes a parasitic mate, fusing with her body and providing sperm in exchange for nutrients. These fish have a slow metabolism, allowing them to survive in the nutrient-scarce deep sea, and their large eyes help them navigate in near-total darkness. Their flexible jaws and stomachs enable them to consume prey much larger than their own body size, showcasing how they've adapted to life in extreme conditions.
+        </p>
+        </div>
+            
+        <div id="caresheet">
+            <div id="caresheettitle">Anglerfish</div>
+            <img class="img1" src="anglerFish.png" alt="Anglerfish Image" style="width:100px;height:100px;">
+            <p><strong>Tank Size:</strong> 20+ gallons<br><strong>Number of Fish in a Tank:</strong> 1<br><strong>Lifespan:</strong> 
+            25 years<br><strong>Water temperature:</strong> 72°F to 78°F<br><strong>pH level:</strong> 8.1 to 8.4
+            <br><strong>Water hardness:</strong> 8 to 12 dKH<br><strong>Diet:</strong> brine shrimp, small fish, and ghost shrimp</p>
+        </div>
+
+        <div id="backarrow"><img src="backarrow-removebg-preview.png" alt="Back Arrow" style="float:right;width:100px;height:100px;" usemap="#arrowmap"></div>
+        
+        <map name="arrowmap">
+            <area shape="rect" coords="0,0,100,100" alt="back arrow" href="index.html">
+        </map>
+        
+    </body>
+</html>
