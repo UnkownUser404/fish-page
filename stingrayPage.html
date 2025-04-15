@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Basic Web Page</title>
+        
+        <style>
+            Body {background-color: lightblue; }
+            h1 {font-size:"50px"; font-family: "Monaco", "Courier New", monospace; padding:10px; text-align:center;}
+            #backarrow{
+                position:fixed;
+                bottom:0;
+                right:0;
+            }
+            #description{
+                position: static;
+                border:2px black;
+                width:1200px;
+                height:220px;
+                top:170px;
+                right:15px
+            }
+            #caresheet{
+                position: absolute;
+                border:2px solid black;
+                background-color: white;
+                width:200px;
+                height:400px;
+                top:170px;
+                left:1220px;
+                margin-right: 20px;
+            }
+            #caresheettitle{
+                position: static;
+                text-align: center;
+                background-color: black;
+                color: white;
+                width: 200px;
+                height: 20px;
+                top:0px;
+                left:0px;
+            }
+
+            .img1{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 5px;
+            }
+            
+        </style>
+    </head>
+    <body>
+        
+        <h1>Welcome to the Stingray page!</h1>
+        <div id="description">
+        <h2>Description</h2>
+        <hr noshade>       
+        <p>
+            Stingrays are fascinating, flat-bodied marine animals known for their graceful movements and unique appearance. Belonging to the family of rays, they are closely related to sharks and share a cartilaginous skeleton, which makes their bodies flexible and lightweight. Most stingrays have broad, wing-like pectoral fins that they flap like birds underwater, allowing them to glide smoothly along the ocean floor.
+
+            These creatures are often found in warm, shallow coastal waters around the world, where they camouflage themselves in the sand to hunt small fish, crustaceans, and mollusks. One of their most distinctive features is the long, whip-like tail, which in many species has one or more venomous spines used for defense. While stingrays are generally peaceful and avoid human contact, they can sting if accidentally stepped on, making the "sting" part of their name quite literal.
+
+            Stingrays come in various sizes, from small freshwater species to the giant oceanic manta ray, which can have a wingspan of over 20 feet. Despite their somewhat intimidating tails, stingrays are often gentle and curious, and they are a popular sight in aquariums and during snorkeling or diving excursions.
+        </p>
+        </div>
+
+        <div id="description">
+        <h2>Behavior</h2>
+        <hr noshade>      
+        <p>
+            Stingray behavior is generally calm, elusive, and low-key, with most species spending their time gliding slowly along the ocean floor. They're bottom-dwellers by nature, meaning they like to stay close to sandy or muddy seabeds where they can easily blend in for protection and to sneak up on prey. They often bury themselves under a thin layer of sand, with just their eyes and spiracles (breathing holes) sticking out, allowing them to stay alert while remaining nearly invisible.
+
+            Stingrays are mostly solitary creatures, although some species may gather in groups during mating season or in areas with plentiful food. They’re not aggressive and usually only use their venomous tail spine as a last resort when they feel threatened—like if someone accidentally steps on them.
+
+            When it comes to hunting, stingrays use electroreceptors in their snouts to detect the tiny electrical signals given off by buried prey. Once they locate a meal—like small fish, shrimp, or clams—they use their mouths, located on the underside of their bodies, to suck up and crush their food with strong jaws.
+
+            In captivity and human interactions, stingrays can become surprisingly social and curious, especially when they associate people with food. In places like stingray feeding encounters or touch tanks, they often glide right up to people, flapping their fins like wings.
+        </p>
+        </div>
+            
+        <div id="caresheet">
+            <div id="caresheettitle">Stingray</div>
+            <img class="img1" src="starfish.png" alt="Starfish Image" style="width:100px;height:100px;">
+            <p><strong>Tank Size:</strong> should not be kept as a pet<br><strong>Number of Fish in a Tank:</strong> N/A<br><strong>Lifespan:</strong> 
+            15-25 years<br><strong>Water temperature:</strong> 75°F to 82°F<br><strong>pH level:</strong> 6.8 to 7.6.
+            <br><strong>Water hardness:</strong> 4 to 12 KH<br><strong>Diet:</strong> small bottom-dwelling fish, clams, mussels, worms, crabs, lobsters, and other benthic organisms</p>
+        </div>
+
+        <div id="backarrow"><img src="backarrow-removebg-preview.png" alt="Back Arrow" style="float:right;width:100px;height:100px;" usemap="#arrowmap"></div>
+        
+        <map name="arrowmap">
+            <area shape="rect" coords="0,0,100,100" alt="back arrow" href="index.html">
+        </map>
+        
+    </body>
+</html>
