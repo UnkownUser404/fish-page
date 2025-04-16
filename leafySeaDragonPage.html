@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Basic Web Page</title>
+        
+        <style>
+            Body {background-color: lightblue; }
+            h1 {font-size:"50px"; font-family: "Monaco", "Courier New", monospace; padding:10px; text-align:center;}
+            #backarrow{
+                position:fixed;
+                bottom:0;
+                right:0;
+            }
+            #description{
+                position: static;
+                border:2px black;
+                width:1200px;
+                height:220px;
+                top:170px;
+                right:15px
+            }
+            #caresheet{
+                position: absolute;
+                border:2px solid black;
+                background-color: white;
+                width:200px;
+                height:400px;
+                top:170px;
+                left:1220px;
+                margin-right: 20px;
+            }
+            #caresheettitle{
+                position: static;
+                text-align: center;
+                background-color: black;
+                color: white;
+                width: 200px;
+                height: 20px;
+                top:0px;
+                left:0px;
+            }
+
+            .img1{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 5px;
+            }
+            
+        </style>
+    </head>
+    <body>
+        
+        <h1>Welcome to the Leafy Sea Dragon page!</h1>
+        <div id="description">
+        <h2>Description</h2>
+        <hr noshade>       
+        <p>
+            Starfish—also known as sea stars—are fascinating marine animals found in oceans all over the world. Despite their name, starfish aren’t actually fish; they belong to a group of animals called echinoderms, which also includes sea urchins and sand dollars. Most starfish have five arms arranged in a star-like shape, although some species can have many more.
+
+            Starfish have tough, spiny skin and come in a wide range of colors and patterns, helping them blend into their surroundings or warn off predators. One of their most unique features is their ability to regenerate—if a starfish loses an arm, it can often grow it back. They move slowly using tiny tube feet located on the underside of their arms, and they feed mainly on mollusks like clams and oysters.
+
+            Starfish play an important role in the ocean ecosystem, both as predators and prey. They are truly one of the ocean's most iconic and intriguing creatures.
+        </p>
+        </div>
+
+        <div id="description">
+        <h2>Behavior</h2>
+        <hr noshade>      
+        <p>
+            Starfish behavior is unique and fascinating, especially considering they don’t have brains or blood in the way we typically understand them. Instead, they rely on a simple nerve ring and a water vascular system to sense their environment and move.
+
+            One of their most well-known behaviors is regeneration. If a starfish loses an arm, it can often regrow it over time. In some species, a whole new starfish can even grow from a single lost arm, as long as part of the central body is attached.
+
+            Starfish are also known for their slow but deliberate movement. They use hundreds of tiny tube feet located on the underside of their arms to creep along the ocean floor. These tube feet work through hydraulic pressure and help with both movement and gripping prey.
+
+            When it comes to feeding, starfish have a remarkable behavior: many species can evert their stomachs—basically push their stomachs outside their body—to digest food externally. This is especially useful when feeding on shelled animals like clams or mussels. They pry open the shell just enough, insert their stomach, and begin digesting the soft tissue inside.
+
+            Starfish are mostly solitary but may be found in groups where food is plentiful. They tend to be more active at night or in dim lighting, showing a form of nocturnal behavior.
+        </p>
+        </div>
+            
+        <div id="caresheet">
+            <div id="caresheettitle">Starfish</div>
+            <img class="img1" src="starfish.png" alt="Starfish Image" style="width:100px;height:100px;">
+            <p><strong>Tank Size:</strong> 10+ gallons<br><strong>Number of Fish in a Tank:</strong> Any number<br><strong>Lifespan:</strong> 
+            35 years<br><strong>Water temperature:</strong> 72°F to 82°F<br><strong>pH level:</strong> 8.1 to 8.4
+            <br><strong>Water hardness:</strong> 8 to 12 dKH<br><strong>Diet:</strong> Mussels, clams, oysters, snails, bristle worms, and scallops</p>
+        </div>
+
+        <div id="backarrow"><img src="backarrow-removebg-preview.png" alt="Back Arrow" style="float:right;width:100px;height:100px;" usemap="#arrowmap"></div>
+        
+        <map name="arrowmap">
+            <area shape="rect" coords="0,0,100,100" alt="back arrow" href="index.html">
+        </map>
+        
+    </body>
+</html>
