@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Basic Web Page</title>
+        
+        <style>
+            Body {background-color: lightblue; }
+            h1 {font-size:"50px"; font-family: "Monaco", "Courier New", monospace; padding:10px; text-align:center;}
+            #backarrow{
+                position:fixed;
+                bottom:0;
+                right:0;
+            }
+            #description{
+                position: static;
+                border:2px black;
+                width:1200px;
+                height:220px;
+                top:170px;
+                right:15px
+            }
+            #caresheet{
+                position: absolute;
+                border:2px solid black;
+                background-color: white;
+                width:200px;
+                height:400px;
+                top:170px;
+                left:1220px;
+                margin-right: 20px;
+            }
+            #caresheettitle{
+                position: static;
+                text-align: center;
+                background-color: black;
+                color: white;
+                width: 200px;
+                height: 20px;
+                top:0px;
+                left:0px;
+            }
+
+            .img1{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 5px;
+            }
+            
+        </style>
+    </head>
+    <body>
+        
+        <h1>Welcome to the Starfish page!</h1>
+        <div id="description">
+        <h2>Description</h2>
+        <hr noshade>       
+        <p>
+            The blue tang (scientific name: Paracanthurus hepatus) is a vibrant, eye-catching fish known for its brilliant blue body and striking yellow tail. Also called the palette surgeonfish or regal tang, it’s native to the warm waters of the Indo-Pacific, including coral reefs and coastal regions.
+
+            Blue tangs are easily recognized by their oval, laterally compressed bodies and the bold black markings that resemble a painter's palette, giving them their nickname. They typically grow up to 12 inches (30 cm) in length. Despite their colorful appearance, blue tangs are more than just pretty reef dwellers—they play a key role in the ecosystem by feeding on algae, which helps keep coral reefs healthy.
+
+            These fish gained major popularity thanks to the character “Dory” from Disney-Pixar’s Finding Nemo and Finding Dory. In the wild, blue tangs are often found swimming in schools, and they use sharp spines near their tails for defense.
+
+            Fun fact: despite their name, juvenile blue tangs are actually bright yellow and only develop their signature blue as they mature.
+        </p>
+        </div>
+
+        <div id="description">
+        <h2>Behavior</h2>
+        <hr noshade>      
+        <p>
+            Blue tangs (Paracanthurus hepatus) have fascinating and sometimes quirky behaviors that help them survive in the dynamic environment of coral reefs.
+
+            These fish are diurnal, meaning they're active during the day and rest at night, often hiding in coral crevices for protection. Blue tangs are usually seen swimming in small groups or loose schools, especially as juveniles, which helps them stay safer from predators. Adults may be more solitary or pair up, but they still occasionally join groups, especially while feeding.
+
+            One of their main behaviors is algae grazing—they constantly nibble on algae growing on rocks and coral, which helps prevent algae overgrowth and supports reef health. They use their small, sharp teeth to scrape algae off surfaces, and their narrow bodies let them slip into tight crevices to feed.
+
+            Despite their peaceful appearance, blue tangs can be territorial, especially males during mating season. They use the sharp, scalpel-like spines on either side of their tails for defense and to establish dominance if needed.
+
+            When stressed or threatened, they may change color slightly, becoming darker in hue. They also have a neat way of communicating subtle shifts in mood or status through body coloration and posture.
+
+            All in all, blue tangs are active, social, and essential reef residents with behaviors that balance beauty and utility in their ocean habitats.
+        </p>
+        </div>
+            
+        <div id="caresheet">
+            <div id="caresheettitle">Blue Tang</div>
+            <img class="img1" src="blueTang.png" alt="Blue Tang Image" style="width:100px;height:100px;">
+            <p><strong>Tank Size:</strong> 125+ gallons<br><strong>Number of Fish in a Tank:</strong> 1+<br><strong>Lifespan:</strong> 
+            8-12 years<br><strong>Water temperature:</strong> 73°F to 82°F<br><strong>pH level:</strong> 8.1 to 8.4
+            <br><strong>Water hardness:</strong> 8 to 12 dKH<br><strong>Diet:</strong> algae</p>
+        </div>
+
+        <div id="backarrow"><img src="backarrow-removebg-preview.png" alt="Back Arrow" style="float:right;width:100px;height:100px;" usemap="#arrowmap"></div>
+        
+        <map name="arrowmap">
+            <area shape="rect" coords="0,0,100,100" alt="back arrow" href="index.html">
+        </map>
+        
+    </body>
+</html>
