@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Basic Web Page</title>
+        
+        <style>
+            Body {background-color: lightblue; }
+            h1 {font-size:"50px"; font-family: "Monaco", "Courier New", monospace; padding:10px; text-align:center;}
+            #backarrow{
+                position:fixed;
+                bottom:0;
+                right:0;
+            }
+            #description{
+                position: static;
+                border:2px black;
+                width:1200px;
+                height:220px;
+                top:170px;
+                right:15px
+            }
+            #caresheet{
+                position: absolute;
+                border:2px solid black;
+                background-color: white;
+                width:200px;
+                height:400px;
+                top:170px;
+                left:1220px;
+                margin-right: 20px;
+            }
+            #caresheettitle{
+                position: static;
+                text-align: center;
+                background-color: black;
+                color: white;
+                width: 200px;
+                height: 20px;
+                top:0px;
+                left:0px;
+            }
+
+            .img1{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 5px;
+            }
+            
+        </style>
+    </head>
+    <body>
+        
+        <h1>Welcome to the Royal Gramma page!</h1>
+        <div id="description">
+        <h2>Description</h2>
+        <hr noshade>       
+        <p>
+            The Royal Gramma, also known as the Fairy Basslet, is a small but stunning saltwater fish native to the Caribbean Sea. Beloved by marine aquarium enthusiasts, this vibrant fish is easily recognized by its striking coloration—a brilliant purple front half that gradually fades into a bright yellow toward the tail. Growing up to 3 inches long, the Royal Gramma is peaceful, hardy, and relatively easy to care for, making it a popular choice for reef tanks.
+
+            It typically dwells among coral reefs and rocky crevices, where it can dart in and out for protection. Despite its bold look, it’s a shy and solitary species that thrives in calm, well-maintained environments with plenty of hiding spots. The Royal Gramma is also known for its interesting behavior, like hanging upside down under rock ledges and fiercely guarding its territory from intruders.
+
+            This fish is not only a visual gem but also contributes to tank health by eating parasites off other fish. With its vibrant colors, easygoing nature, and fascinating habits, the Royal Gramma is a true jewel of the reef.
+        </p>
+        </div>
+
+        <div id="description">
+        <h2>Behavior</h2>
+        <hr noshade>      
+        <p>
+            The Royal Gramma may look like a flashy extrovert with its bright purple and yellow coloring, but it’s actually a shy and secretive fish by nature. In the wild and in aquariums, it prefers to stay close to rock crevices, caves, or coral where it can retreat quickly if startled. It often claims a small territory and becomes quite attached to its chosen hiding spot, defending it fiercely from intruders—even if the intruder is much larger.
+
+            Despite its territorial nature, the Royal Gramma is generally peaceful with other non-aggressive fish, making it a great community tank mate. It has a unique swimming style, often hovering motionless in place or gliding upside down along the undersides of rocks and ledges.
+
+            One fascinating behavior is its cleaning habit—it sometimes picks parasites off other fish, acting a bit like a cleaner wrasse. At feeding time, it’s bold and quick, darting out to snag food before retreating again.
+
+            In short, the Royal Gramma is a mix of bold colors and cautious personality—a curious fish with quirky habits that make it both entertaining and easy to live with in a home aquarium.
+        </p>
+        </div>
+            
+        <div id="caresheet">
+            <div id="caresheettitle">Royal Gramma</div>
+            <img class="img1" src="starfish.png" alt="Starfish Image" style="width:100px;height:100px;">
+            <p><strong>Tank Size:</strong> 30+ gallons<br><strong>Number of Fish in a Tank:</strong> 1+<br><strong>Lifespan:</strong> 
+            5-6 years<br><strong>Water temperature:</strong> 72°F to 80°F<br><strong>pH level:</strong> 8.1 to 8.4
+            <br><strong>Water hardness:</strong> 8 to 12 dKH<br><strong>Diet:</strong> Plankton, crustacean flesh, mysid, brine shrimp</p>
+        </div>
+
+        <div id="backarrow"><img src="backarrow-removebg-preview.png" alt="Back Arrow" style="float:right;width:100px;height:100px;" usemap="#arrowmap"></div>
+        
+        <map name="arrowmap">
+            <area shape="rect" coords="0,0,100,100" alt="back arrow" href="index.html">
+        </map>
+        
+    </body>
+</html>
