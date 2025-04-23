@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Basic Web Page</title>
+        
+        <style>
+            Body {background-color: lightblue; }
+            h1 {font-size:"50px"; font-family: "Monaco", "Courier New", monospace; padding:10px; text-align:center;}
+            #backarrow{
+                position:fixed;
+                bottom:0;
+                right:0;
+            }
+            #description{
+                position: static;
+                border:2px black;
+                width:1200px;
+                height:220px;
+                top:170px;
+                right:15px
+            }
+            #caresheet{
+                position: absolute;
+                border:2px solid black;
+                background-color: white;
+                width:200px;
+                height:400px;
+                top:170px;
+                left:1220px;
+                margin-right: 20px;
+            }
+            #caresheettitle{
+                position: static;
+                text-align: center;
+                background-color: black;
+                color: white;
+                width: 200px;
+                height: 20px;
+                top:0px;
+                left:0px;
+            }
+
+            .img1{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 5px;
+            }
+            
+        </style>
+    </head>
+    <body>
+        
+        <h1>Welcome to the Swordfish page!</h1>
+        <div id="description">
+        <h2>Description</h2>
+        <hr noshade>       
+        <p>
+            Swordfish (Xiphias gladius) are large, predatory fish known for their distinctive, elongated, flat bills that resemble swords. These powerful ocean swimmers can reach lengths of up to 14 feet (4.3 meters) and weigh over 1,000 pounds (450 kilograms), although most are smaller. The "sword" is used to slash at prey, stunning or injuring it for easier capture.
+
+            Swordfish have a sleek, torpedo-shaped body built for speed, with a dark bluish back and lighter, silvery sides and belly. Unlike many fish, adult swordfish lack scales and teeth. They're also unique in being able to heat their eyes and brain, which improves vision and hunting ability in cold, deep waters.
+
+            They are found in tropical and temperate oceans around the world, often migrating long distances. Swordfish are prized by sport fishers for their strength and by commercial fisheries for their meat, which is dense, meaty, and commonly grilled or seared.
+        </p>
+        </div>
+
+        <div id="description">
+        <h2>Behavior</h2>
+        <hr noshade>      
+        <p>
+            Swordfish are solitary and highly migratory creatures, known for traveling vast distances across the world's oceans. They typically swim alone rather than in schools, and are most active at night, rising from the deep during the evening to hunt near the surface.
+
+            They are fast and powerful swimmers, often using bursts of speed to ambush prey like squid, mackerel, and other smaller fish. Their long, sword-like bill isn’t used to spear prey as many assume, but rather to slash and stun it, making capture easier.
+
+            Swordfish are known to dive incredibly deep—over 2,000 feet (600 meters)—to hunt in colder, darker waters. To cope with the cold at such depths, they have a special organ near their eyes that warms their brain and improves vision, giving them an edge while hunting in low-light conditions.
+
+            Though mostly solitary, they sometimes gather in areas with abundant food, and their movements are influenced by water temperature, prey availability, and seasonal patterns.
+        </p>
+        </div>
+            
+        <div id="caresheet">
+            <div id="caresheettitle">Swordfish</div>
+            <img class="img1" src="swordfish.png" alt="Swordfish Image" style="width:100px;height:100px;">
+            <p><strong>Tank Size:</strong> not suitable for aquariums<br><strong>Number of Fish in a Tank:</strong> N/A<br><strong>Lifespan:</strong> 
+            15 years<br><strong>Water temperature:</strong> 65°F to 82°F<br><strong>pH level:</strong> 7.0 to 8.4
+            <br><strong>Water hardness:</strong> 12 to 35 dKH<br><strong>Diet:</strong> small fish and cephalopods</p>
+        </div>
+
+        <div id="backarrow"><img src="backarrow-removebg-preview.png" alt="Back Arrow" style="float:right;width:100px;height:100px;" usemap="#arrowmap"></div>
+        
+        <map name="arrowmap">
+            <area shape="rect" coords="0,0,100,100" alt="back arrow" href="index.html">
+        </map>
+        
+    </body>
+</html>
