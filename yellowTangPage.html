@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Basic Web Page</title>
+        
+        <style>
+            Body {background-color: lightblue; }
+            h1 {font-size:"50px"; font-family: "Monaco", "Courier New", monospace; padding:10px; text-align:center;}
+            #backarrow{
+                position:fixed;
+                bottom:0;
+                right:0;
+            }
+            #description{
+                position: static;
+                border:2px black;
+                width:1200px;
+                height:220px;
+                top:170px;
+                right:15px
+            }
+            #caresheet{
+                position: absolute;
+                border:2px solid black;
+                background-color: white;
+                width:200px;
+                height:400px;
+                top:170px;
+                left:1220px;
+                margin-right: 20px;
+            }
+            #caresheettitle{
+                position: static;
+                text-align: center;
+                background-color: black;
+                color: white;
+                width: 200px;
+                height: 20px;
+                top:0px;
+                left:0px;
+            }
+
+            .img1{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 5px;
+            }
+            
+        </style>
+    </head>
+    <body>
+        
+        <h1>Welcome to the Yellow Tang page!</h1>
+        <div id="description">
+        <h2>Description</h2>
+        <hr noshade>       
+        <p>
+            The Yellow Tang (Zebrasoma flavescens) is a vibrant, eye-catching marine fish known for its bright lemon-yellow color and graceful swimming style. Native to the warm, shallow reefs of the Pacific Ocean—especially around Hawaii—this species is a favorite in both wild reef ecosystems and home aquariums.
+
+            With a laterally compressed, disc-like body and a sharp, scalpel-like spine at the base of its tail (used for defense), the Yellow Tang can grow up to 8 inches in length. Despite its bold coloration, it blends well into sunlit coral environments, where it grazes on algae throughout the day. This herbivorous diet makes it an important cleaner in reef ecosystems, helping to keep algae growth in check.
+
+            Yellow Tangs are generally peaceful, though they can be territorial, especially with others of the same species. Their hardy nature, striking appearance, and active behavior make them one of the most popular saltwater aquarium fish in the world.
+        </p>
+        </div>
+
+        <div id="description">
+        <h2>Behavior</h2>
+        <hr noshade>      
+        <p>
+            Yellow Tangs exhibit fascinating and often social behaviors that make them a joy to observe in both the wild and in aquariums. These fish are diurnal, meaning they’re active during the day and rest at night, often retreating into coral crevices where they turn a pale gray to blend in and avoid predators.
+
+            In the wild, Yellow Tangs are usually found in small groups or loose schools, grazing constantly on algae that grows on rocks and coral. This constant nibbling not only helps keep their habitat healthy, but it also keeps their digestive systems busy, since they rely on frequent feeding.
+
+            While generally peaceful, Yellow Tangs can show territorial behavior, especially toward other tangs or similarly shaped fish. They’ll use the sharp spine on their tail as a last-resort weapon during disputes. In aquariums, it's common to see them establish a "home" area they patrol regularly.
+
+            Yellow Tangs are also quite curious and alert, often investigating new objects or other fish. Their awareness of their surroundings and social nature make them active and engaging inhabitants of reef tanks. When kept with compatible tank mates and given enough space, their behavior is lively, balanced, and entertaining to watch.
+        </p>
+        </div>
+            
+        <div id="caresheet">
+            <div id="caresheettitle">Yellow Tang</div>
+            <img class="img1" src="yellowTang.png" alt="Yellow Tang Image" style="width:100px;height:100px;">
+            <p><strong>Tank Size:</strong> 100+ gallons<br><strong>Number of Fish in a Tank:</strong> 2+<br><strong>Lifespan:</strong> 
+            30 years<br><strong>Water temperature:</strong> 72°F to 82°F<br><strong>pH level:</strong> 8.1 to 8.4
+            <br><strong>Water hardness:</strong> 5 to 20 dKH<br><strong>Diet:</strong> algae and marine plants</p>
+        </div>
+
+        <div id="backarrow"><img src="backarrow-removebg-preview.png" alt="Back Arrow" style="float:right;width:100px;height:100px;" usemap="#arrowmap"></div>
+        
+        <map name="arrowmap">
+            <area shape="rect" coords="0,0,100,100" alt="back arrow" href="index.html">
+        </map>
+        
+    </body>
+</html>
