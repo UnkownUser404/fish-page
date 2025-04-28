@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Basic Web Page</title>
+        
+        <style>
+            Body {background-color: lightblue; }
+            h1 {font-size:"50px"; font-family: "Monaco", "Courier New", monospace; padding:10px; text-align:center;}
+            #backarrow{
+                position:fixed;
+                bottom:0;
+                right:0;
+            }
+            #description{
+                position: static;
+                border:2px black;
+                width:1200px;
+                height:220px;
+                top:170px;
+                right:15px
+            }
+            #caresheet{
+                position: absolute;
+                border:2px solid black;
+                background-color: white;
+                width:200px;
+                height:400px;
+                top:170px;
+                left:1220px;
+                margin-right: 20px;
+            }
+            #caresheettitle{
+                position: static;
+                text-align: center;
+                background-color: black;
+                color: white;
+                width: 200px;
+                height: 20px;
+                top:0px;
+                left:0px;
+            }
+
+            .img1{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 5px;
+            }
+            
+        </style>
+    </head>
+    <body>
+        
+        <h1>Welcome to the Clownfish page!</h1>
+        <div id="description">
+        <h2>Description</h2>
+        <hr noshade>       
+        <p>
+            Clownfish, also known as anemonefish, are small, brightly colored marine fish best known for their vibrant orange bodies with white bands outlined in black. They belong to the subfamily Amphiprioninae and are native to the warm waters of the Indian and Pacific Oceans, including the Great Barrier Reef and the Red Sea. Clownfish are famous for their symbiotic relationship with sea anemones, which provide them protection from predators thanks to their stinging tentacles—stings that clownfish are immune to due to a special mucus layer on their skin.
+
+            Clownfish live in small social groups within a single anemone and have a fascinating reproductive structure known as sequential hermaphroditism, where the dominant individual in a group is a female, and the others are males; if the female dies, the dominant male will change sex to become the new female. These fish are also known for their role in popular culture, especially due to the animated film Finding Nemo, which significantly raised public interest in marine life.
+        </p>
+        </div>
+
+        <div id="description">
+        <h2>Behavior</h2>
+        <hr noshade>      
+        <p>
+            Clownfish behavior is both fascinating and highly adapted to their unique environment. One of the most notable aspects of their behavior is their symbiotic relationship with sea anemones. Clownfish live among the tentacles of specific anemone species, which provide shelter and protection from predators. In return, clownfish help the anemone by cleaning it of debris and parasites, and may even lure prey toward it.
+
+            Clownfish are also highly territorial and rarely stray far from their host anemone. They exhibit aggressive behavior when defending their territory, especially toward other clownfish not part of their social group. Social structure within a group is strict and based on a dominance hierarchy: the largest and most dominant individual is the female, followed by a breeding male, and then several smaller non-breeding males. If the female dies, the breeding male changes sex to become the new female, and the next in line becomes the breeding male.
+
+            Communication among clownfish involves clicks and pops, especially during aggressive interactions. They are also known for their site fidelity, meaning they stay in and defend the same territory for much of their lives.
+        </p>
+        </div>
+            
+        <div id="caresheet">
+            <div id="caresheettitle">Clownfish</div>
+            <img class="img1" src="clownfish.png" alt="Clownfish Image" style="width:100px;height:100px;">
+            <p><strong>Tank Size:</strong> 20+ gallons<br><strong>Number of Fish in a Tank:</strong> 2+<br><strong>Lifespan:</strong> 
+            6-10 years<br><strong>Water temperature:</strong> 75°F to 80°F<br><strong>pH level:</strong> 8.0 to 8.4
+            <br><strong>Water hardness:</strong> 8 to 12 dKH<br><strong>Diet:</strong> brine shrimp, blood worms, insect larvae and eggs, algae, and plant matter</p>
+        </div>
+
+        <div id="backarrow"><img src="backarrow-removebg-preview.png" alt="Back Arrow" style="float:right;width:100px;height:100px;" usemap="#arrowmap"></div>
+        
+        <map name="arrowmap">
+            <area shape="rect" coords="0,0,100,100" alt="back arrow" href="index.html">
+        </map>
+        
+    </body>
+</html>
