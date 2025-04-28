@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Basic Web Page</title>
+        
+        <style>
+            Body {background-color: lightblue; }
+            h1 {font-size:"50px"; font-family: "Monaco", "Courier New", monospace; padding:10px; text-align:center;}
+            #backarrow{
+                position:fixed;
+                bottom:0;
+                right:0;
+            }
+            #description{
+                position: static;
+                border:2px black;
+                width:1200px;
+                height:220px;
+                top:170px;
+                right:15px
+            }
+            #caresheet{
+                position: absolute;
+                border:2px solid black;
+                background-color: white;
+                width:200px;
+                height:400px;
+                top:170px;
+                left:1220px;
+                margin-right: 20px;
+            }
+            #caresheettitle{
+                position: static;
+                text-align: center;
+                background-color: black;
+                color: white;
+                width: 200px;
+                height: 20px;
+                top:0px;
+                left:0px;
+            }
+
+            .img1{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 5px;
+            }
+            
+        </style>
+    </head>
+    <body>
+        
+        <h1>Welcome to the Pufferfish page!</h1>
+        <div id="description">
+        <h2>Description</h2>
+        <hr noshade>       
+        <p>
+            The pufferfish, also known as a blowfish or fugu in Japan, is a unique marine creature known for its ability to inflate its body as a defense mechanism. Belonging to the family Tetraodontidae, pufferfish can rapidly ingest water (or air when out of water) to balloon into a much larger, rounder shape, deterring predators by appearing more intimidating and harder to swallow.
+
+            Pufferfish are found in warm and temperate seas around the world, particularly in coral reefs and coastal regions. They typically have stout bodies, rough or spiny skin, and a beak-like set of fused teeth used to crush the shells of crustaceans and mollusks, which make up much of their diet.
+
+            Many species of pufferfish contain tetrodotoxin, a potent neurotoxin that can be deadly to predators and humans alike. Despite the risks, some species are considered a delicacy in Japanese cuisine when prepared by licensed chefs trained to remove the toxic parts.
+
+            Their curious appearance, slow swimming style, and dramatic defense abilities make pufferfish one of the most fascinating and recognizable fish in the ocean.
+        </p>
+        </div>
+
+        <div id="description">
+        <h2>Behavior</h2>
+        <hr noshade>      
+        <p>
+            Pufferfish behavior is as fascinating as their appearance. Generally solitary and slow swimmers, pufferfish tend to move cautiously through their habitats, relying more on their defenses than on speed to stay safe. When threatened, they display their most famous behavior: quickly inflating their bodies by gulping water (or air, if on land) to become large, round, and spiky, making them difficult or even impossible for predators to eat.
+
+            Despite their slow pace, pufferfish can be surprisingly agile when startled, darting away quickly before inflating. They are also territorial and may become aggressive if another fish enters their space, especially during mating season. Male pufferfish are known for some complex and unique behaviors, such as creating intricate circular patterns in the sand to attract females—a rare example of “artistic” behavior in fish.
+
+            Pufferfish use their keen eyesight to spot food and threats, and they rely on their strong jaws to crack open hard-shelled prey like snails, crabs, and sea urchins. While not particularly social, they are curious and will often investigate objects in their environment.
+        </p>
+        </div>
+            
+        <div id="caresheet">
+            <div id="caresheettitle">Pufferfish</div>
+            <img class="img1" src="pufferfish.png" alt="Pufferfish Image" style="width:100px;height:100px;">
+            <p><strong>Tank Size:</strong> 500+ gallons<br><strong>Number of Fish in a Tank:</strong> Any number<br><strong>Lifespan:</strong> 
+            3-20 years<br><strong>Water temperature:</strong> 75°F to 79°F<br><strong>pH level:</strong> 7.0 to 8.0
+            <br><strong>Water hardness:</strong> 10 to 25 dKH<br><strong>Diet:</strong> Shellfish, crustaceans, shrimp, coral, algae, and snails</p>
+        </div>
+
+        <div id="backarrow"><img src="backarrow-removebg-preview.png" alt="Back Arrow" style="float:right;width:100px;height:100px;" usemap="#arrowmap"></div>
+        
+        <map name="arrowmap">
+            <area shape="rect" coords="0,0,100,100" alt="back arrow" href="index.html">
+        </map>
+        
+    </body>
+</html>
