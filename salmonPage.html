@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Basic Web Page</title>
+        
+        <style>
+            Body {background-color: lightblue; }
+            h1 {font-size:"50px"; font-family: "Monaco", "Courier New", monospace; padding:10px; text-align:center;}
+            #backarrow{
+                position:fixed;
+                bottom:0;
+                right:0;
+            }
+            #description{
+                position: static;
+                border:2px black;
+                width:1200px;
+                height:220px;
+                top:170px;
+                right:15px
+            }
+            #caresheet{
+                position: absolute;
+                border:2px solid black;
+                background-color: white;
+                width:200px;
+                height:400px;
+                top:170px;
+                left:1220px;
+                margin-right: 20px;
+            }
+            #caresheettitle{
+                position: static;
+                text-align: center;
+                background-color: black;
+                color: white;
+                width: 200px;
+                height: 20px;
+                top:0px;
+                left:0px;
+            }
+
+            .img1{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 5px;
+            }
+            
+        </style>
+    </head>
+    <body>
+        
+        <h1>Welcome to the Salmon page!</h1>
+        <div id="description">
+        <h2>Description</h2>
+        <hr noshade>       
+        <p>
+            Salmon are migratory fish known for their remarkable life cycle and ecological importance. They are typically found in the northern Atlantic and Pacific Oceans and in rivers that flow into these oceans. Born in freshwater rivers and streams, salmon migrate to the ocean as they mature, and eventually return—often to the exact location where they were born—to spawn. This journey can span thousands of miles and includes leaping up waterfalls and navigating strong currents.
+
+            Salmon are prized for their firm, pink flesh, which is rich in omega-3 fatty acids and protein, making them a popular and nutritious food source. There are several species of salmon, including Atlantic salmon and five main types of Pacific salmon: Chinook (king), Coho (silver), Sockeye (red), Pink (humpback), and Chum (dog). In addition to their value to humans, salmon play a crucial role in ecosystems by transporting nutrients from the ocean to inland freshwater habitats.
+        </p>
+        </div>
+
+        <div id="description">
+        <h2>Behavior</h2>
+        <hr noshade>      
+        <p>
+            Salmon behavior is shaped by one of the most remarkable life cycles in the animal kingdom. They are anadromous fish, meaning they are born in freshwater, migrate to the ocean to grow and mature, and then return to freshwater to spawn. One of their most notable behaviors is homing—the ability to navigate back to the exact stream where they were born, using a combination of environmental cues, magnetic fields, and an acute sense of smell.
+
+            During their time in the ocean, salmon display schooling behavior for protection and efficient foraging. As they mature and begin their migration back to freshwater, their behavior changes dramatically. They stop feeding, relying on stored body fat for energy, and become more aggressive and territorial, especially males, who compete for mates.
+
+            Spawning behavior includes nest-building, where females dig shallow depressions in gravel beds called redds to lay their eggs. Males fertilize the eggs, and afterward, most Pacific salmon species die shortly after spawning, a behavior known as semelparity. Their carcasses contribute vital nutrients to the surrounding ecosystem, supporting other wildlife and even future generations of salmon.
+        </p>
+        </div>
+            
+        <div id="caresheet">
+            <div id="caresheettitle">Salmon</div>
+            <img class="img1" src="salmon.png" alt="Salmon Image" style="width:100px;height:100px;">
+            <p><strong>Tank Size:</strong> 300+ gallons<br><strong>Number of Fish in a Tank:</strong> Any number<br><strong>Lifespan:</strong> 
+            2-7 years<br><strong>Water temperature:</strong> 55°F to 64°F<br><strong>pH level:</strong> 6.5 to 8.5
+            <br><strong>Water hardness:</strong> 0 to 25 dKH<br><strong>Diet:</strong> Shrimp, Mayflies, Stoneflies, Sand eels, Grasshoppers, Sprats, Zooplankton, Herring, Crayfish, Caddisfly larvae, Krill, and Squid</p>
+        </div>
+
+        <div id="backarrow"><img src="backarrow-removebg-preview.png" alt="Back Arrow" style="float:right;width:100px;height:100px;" usemap="#arrowmap"></div>
+        
+        <map name="arrowmap">
+            <area shape="rect" coords="0,0,100,100" alt="back arrow" href="index.html">
+        </map>
+        
+    </body>
+</html>
