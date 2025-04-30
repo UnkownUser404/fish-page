@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Basic Web Page</title>
+        
+        <style>
+            Body {background-color: lightblue; }
+            h1 {font-size:"50px"; font-family: "Monaco", "Courier New", monospace; padding:10px; text-align:center;}
+            #backarrow{
+                position:fixed;
+                bottom:0;
+                right:0;
+            }
+            #description{
+                position: static;
+                border:2px black;
+                width:1200px;
+                height:220px;
+                top:170px;
+                right:15px
+            }
+            #caresheet{
+                position: absolute;
+                border:2px solid black;
+                background-color: white;
+                width:200px;
+                height:400px;
+                top:170px;
+                left:1220px;
+                margin-right: 20px;
+            }
+            #caresheettitle{
+                position: static;
+                text-align: center;
+                background-color: black;
+                color: white;
+                width: 200px;
+                height: 20px;
+                top:0px;
+                left:0px;
+            }
+
+            .img1{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 5px;
+            }
+            
+        </style>
+    </head>
+    <body>
+        
+        <h1>Welcome to the Herring page!</h1>
+        <div id="description">
+        <h2>Description</h2>
+        <hr noshade>       
+        <p>
+            Herring are small, oily fish belonging to the family Clupeidae, commonly found in the temperate waters of the North Atlantic and Pacific Oceans, as well as the Baltic Sea. Known for their shimmering, silver bodies and streamlined shape, herrings travel in large schools and are a vital part of the marine food web, serving as prey for larger fish, seabirds, and marine mammals. They feed primarily on plankton and are themselves a major source of food for humans, often consumed fresh, pickled, smoked, or salted. Herrings have played a significant cultural and economic role throughout history, especially in Northern Europe, where they have been a dietary staple and a key trading commodity. Their abundance and rich nutritional content, including omega-3 fatty acids, make them both ecologically important and highly valued in global fisheries.
+        </p>
+        </div>
+
+        <div id="description">
+        <h2>Behavior</h2>
+        <hr noshade>      
+        <p>
+            Herring exhibit highly social behavior, typically forming large, dense schools that can include millions of individuals. This schooling behavior helps protect them from predators by confusing attackers and reducing the chance of any one fish being caught. Herring use their keen sense of hearing and lateral line system to stay coordinated with the group, allowing the entire school to move as one, with swift, synchronized turns.
+
+            They are also known for diel vertical migration—rising toward the surface at night to feed on plankton and descending to deeper waters during the day to avoid predators. During spawning season, herring gather in vast numbers in shallow coastal areas to release their eggs and sperm into the water. This mass spawning often occurs in specific locations and times, triggered by environmental cues such as temperature and daylight.
+  
+            Herring behavior is also influenced by light and sound, and recent studies have shown they may even communicate using low-frequency sounds, including a peculiar behavior known as "fast repetitive tick" (FRT) sounds—believed to be related to social interaction.
+        </p>
+        </div>
+            
+        <div id="caresheet">
+            <div id="caresheettitle">Herring</div>
+            <img class="img1" src="herring.png" alt="Herring Image" style="width:100px;height:100px;">
+            <p><strong>Tank Size:</strong> Not recommended as pets<br><strong>Number of Fish in a Tank:</strong> N/A<br><strong>Lifespan:</strong> 
+            3-5 years<br><strong>Water temperature:</strong> 68°F to 58°F<br><strong>pH level:</strong> 7.0 to 8.5
+            <br><strong>Water hardness:</strong> 0 to 25 dKH<br><strong>Diet:</strong> phytoplankton, zooplankton, tiny crustaceans, copepods, and small fish and fish larvae.</p>
+        </div>
+
+        <div id="backarrow"><img src="backarrow-removebg-preview.png" alt="Back Arrow" style="float:right;width:100px;height:100px;" usemap="#arrowmap"></div>
+        
+        <map name="arrowmap">
+            <area shape="rect" coords="0,0,100,100" alt="back arrow" href="index.html">
+        </map>
+        
+    </body>
+</html>
