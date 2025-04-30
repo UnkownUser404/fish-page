@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Basic Web Page</title>
+        
+        <style>
+            Body {background-color: lightblue; }
+            h1 {font-size:"50px"; font-family: "Monaco", "Courier New", monospace; padding:10px; text-align:center;}
+            #backarrow{
+                position:fixed;
+                bottom:0;
+                right:0;
+            }
+            #description{
+                position: static;
+                border:2px black;
+                width:1200px;
+                height:220px;
+                top:170px;
+                right:15px
+            }
+            #caresheet{
+                position: absolute;
+                border:2px solid black;
+                background-color: white;
+                width:200px;
+                height:400px;
+                top:170px;
+                left:1220px;
+                margin-right: 20px;
+            }
+            #caresheettitle{
+                position: static;
+                text-align: center;
+                background-color: black;
+                color: white;
+                width: 200px;
+                height: 20px;
+                top:0px;
+                left:0px;
+            }
+
+            .img1{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 5px;
+            }
+            
+        </style>
+    </head>
+    <body>
+        
+        <h1>Welcome to the Anchovy page!</h1>
+        <div id="description">
+        <h2>Description</h2>
+        <hr noshade>       
+        <p>
+            Anchovies are small, pelagic fish belonging to the family Engraulidae, consisting of over 140 species across 17 genera. They are typically found in temperate marine waters, particularly in the Atlantic, Indian, and Pacific Oceans, and are especially abundant in the Mediterranean Sea. Most anchovy species inhabit coastal regions and estuaries, often forming large schools in the upper layers of the ocean.
+
+            Biologically, anchovies are slender, laterally compressed fish with a pointed snout and a large mouth that extends behind the eyes—adaptations suited for filter feeding on plankton and small crustaceans. They possess a single dorsal fin and a forked caudal fin, and their bodies are covered with silvery scales that help reflect light and confuse predators.
+
+            Anchovies play a crucial ecological role as forage fish, forming a vital part of the marine food web by transferring energy from lower trophic levels (like plankton) to higher ones, including seabirds, larger fish, and marine mammals. Their high reproductive rate and rapid growth make them resilient to natural predation, though they are sensitive to overfishing and environmental changes such as temperature shifts and ocean currents.
+        </p>
+        </div>
+
+        <div id="description">
+        <h2>Behavior</h2>
+        <hr noshade>      
+        <p>
+            Anchovy behavior is closely tied to their schooling, feeding, and migratory patterns, which are shaped by environmental conditions such as water temperature, salinity, and plankton availability. As pelagic fish, anchovies spend most of their lives swimming in large, dense schools near the ocean surface. This schooling behavior serves multiple purposes: it helps them evade predators, increases foraging efficiency, and aids in synchronized spawning.
+
+            Feeding primarily on plankton, anchovies use filter-feeding mechanisms by swimming with their mouths open, straining microscopic organisms through gill rakers. Their feeding is often diurnal, with peak activity during daylight hours when plankton concentrations are highest near the surface. However, some species may exhibit vertical migrations, descending into deeper waters at night.
+
+            Anchovies are also known for their seasonal migrations, moving inshore during warmer months to spawn and returning to deeper offshore waters when temperatures drop. Spawning typically occurs in large groups, with external fertilization, and is often timed to coincide with high plankton productivity, ensuring food availability for larvae.
+
+            Their behavior is highly sensitive to environmental changes, including temperature fluctuations and ocean current patterns, which can influence their distribution, spawning success, and school structure. These behavioral adaptations make anchovies both ecologically significant and vulnerable to climate-related shifts in marine ecosystems.
+        </p>
+        </div>
+            
+        <div id="caresheet">
+            <div id="caresheettitle">Anchovy</div>
+            <img class="img1" src="anchovy.png" alt="Anchovy Image" style="width:100px;height:100px;">
+            <p><strong>Tank Size:</strong> 15+ gallons<br><strong>Number of Fish in a Tank:</strong> 4+<br><strong>Lifespan:</strong> 
+            3-7 years<br><strong>Water temperature:</strong> 46°F to 77°F<br><strong>pH level:</strong> 7.0 to 8.5
+            <br><strong>Water hardness:</strong> 8 to 12 dKH<br><strong>Diet:</strong> Plankton</p>
+        </div>
+
+        <div id="backarrow"><img src="backarrow-removebg-preview.png" alt="Back Arrow" style="float:right;width:100px;height:100px;" usemap="#arrowmap"></div>
+        
+        <map name="arrowmap">
+            <area shape="rect" coords="0,0,100,100" alt="back arrow" href="index.html">
+        </map>
+        
+    </body>
+</html>
