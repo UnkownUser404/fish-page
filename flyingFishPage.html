@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Basic Web Page</title>
+        
+        <style>
+            Body {background-color: lightblue; }
+            h1 {font-size:"50px"; font-family: "Monaco", "Courier New", monospace; padding:10px; text-align:center;}
+            #backarrow{
+                position:fixed;
+                bottom:0;
+                right:0;
+            }
+            #description{
+                position: static;
+                border:2px black;
+                width:1200px;
+                height:220px;
+                top:170px;
+                right:15px
+            }
+            #caresheet{
+                position: absolute;
+                border:2px solid black;
+                background-color: white;
+                width:200px;
+                height:400px;
+                top:170px;
+                left:1220px;
+                margin-right: 20px;
+            }
+            #caresheettitle{
+                position: static;
+                text-align: center;
+                background-color: black;
+                color: white;
+                width: 200px;
+                height: 20px;
+                top:0px;
+                left:0px;
+            }
+
+            .img1{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 5px;
+            }
+            
+        </style>
+    </head>
+    <body>
+        
+        <h1>Welcome to the Flying Fish page!</h1>
+        <div id="description">
+        <h2>Description</h2>
+        <hr noshade>       
+        <p>
+            Flying fish are remarkable marine creatures known for their unique ability to glide above the surface of the water. Belonging to the family Exocoetidae, these fish have specially adapted, wing-like pectoral fins that allow them to escape predators by launching themselves into the air. Once airborne, they can glide for distances up to 200 meters, using their tail fins to propel themselves just above the waves. Found primarily in warm ocean waters, flying fish typically have sleek, streamlined bodies that aid both in swimming and in their aerial escapades. Their gliding behavior is not true flight like birds or bats, but rather an extended leap, often triggered by threats such as larger fish or dolphins. With their shimmering, silver-blue scales and agile movements, flying fish are both a spectacle of nature and a fascinating example of evolutionary adaptation.
+        </p>
+        </div>
+
+        <div id="description">
+        <h2>Behavior</h2>
+        <hr noshade>      
+        <p>
+            Flying fish exhibit fascinating behavior primarily centered around their unique gliding ability, which they use as a defense mechanism. When threatened by predators such as tuna, mackerel, or dolphins, flying fish build up speed underwater, then leap out of the water and spread their large, wing-like pectoral fins to glide through the air. Some species also use their lower (pelvic) fins to enhance stability in flight, appearing to have "four wings."
+
+            While gliding, they can travel distances of 50 to 200 meters, and in ideal conditions, some have been observed staying airborne for over 40 seconds. To extend their flight, they may even flap their tail fins rapidly against the surface of the water to gain additional lift. Flying fish are usually active during the day and often form schools, which adds a level of coordination to their escape tactics. At night, they are attracted to light, which has made them easier to catch using traditional fishing techniques in some cultures.
+        </p>
+        </div>
+            
+        <div id="caresheet">
+            <div id="caresheettitle">Flying Fish</div>
+            <img class="img1" src="flyingFish.png" alt="Flying Fish Image" style="width:100px;height:100px;">
+            <p><strong>Tank Size:</strong> N/A<br><strong>Number of Fish in a Tank:</strong> N/A<br><strong>Lifespan:</strong> 
+            ~5 years<br><strong>Water temperature:</strong> 68°F to 79°F<br><strong>pH level:</strong> 6.5 to 7.8
+            <br><strong>Water hardness:</strong> 0 to 25 dKH<br><strong>Diet:</strong> plankton and small crustaceans</p>
+        </div>
+
+        <div id="backarrow"><img src="backarrow-removebg-preview.png" alt="Back Arrow" style="float:right;width:100px;height:100px;" usemap="#arrowmap"></div>
+        
+        <map name="arrowmap">
+            <area shape="rect" coords="0,0,100,100" alt="back arrow" href="index.html">
+        </map>
+        
+    </body>
+</html>
