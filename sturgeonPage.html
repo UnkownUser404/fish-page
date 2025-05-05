@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Basic Web Page</title>
+        
+        <style>
+            Body {background-color: lightblue; }
+            h1 {font-size:"50px"; font-family: "Monaco", "Courier New", monospace; padding:10px; text-align:center;}
+            #backarrow{
+                position:fixed;
+                bottom:0;
+                right:0;
+            }
+            #description{
+                position: static;
+                border:2px black;
+                width:1200px;
+                height:220px;
+                top:170px;
+                right:15px
+            }
+            #caresheet{
+                position: absolute;
+                border:2px solid black;
+                background-color: white;
+                width:200px;
+                height:400px;
+                top:170px;
+                left:1220px;
+                margin-right: 20px;
+            }
+            #caresheettitle{
+                position: static;
+                text-align: center;
+                background-color: black;
+                color: white;
+                width: 200px;
+                height: 20px;
+                top:0px;
+                left:0px;
+            }
+
+            .img1{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 5px;
+            }
+            
+        </style>
+    </head>
+    <body>
+        
+        <h1>Welcome to the Sturgeon page!</h1>
+        <div id="description">
+        <h2>Description</h2>
+        <hr noshade>       
+        <p>
+            Sturgeons are ancient, large, and primarily freshwater fish belonging to the family Acipenseridae, known for their prehistoric appearance and valuable roe, which is processed into caviar. They have existed for over 200 million years, making them one of the oldest surviving fish lineages. Sturgeons are easily recognized by their elongated bodies, armored with five rows of bony scutes instead of typical fish scales, and their long, flattened snouts equipped with sensory barbels.
+
+            Most sturgeon species are found in the Northern Hemisphere, particularly in rivers, lakes, and coastal waters of Eurasia and North America. They are anadromous, meaning they migrate from saltwater to freshwater to spawn. These fish can grow exceptionally large—some species, like the beluga sturgeon (Huso huso), can reach lengths over 20 feet and weigh more than 1,000 kilograms.
+
+            Due to overfishing, habitat loss, and pollution, many sturgeon species are critically endangered. Conservation efforts are ongoing worldwide to protect their populations and preserve their natural habitats.
+        </p>
+        </div>
+
+        <div id="description">
+        <h2>Behavior</h2>
+        <hr noshade>      
+        <p>
+            Sturgeon behavior is characterized by their slow, deliberate movements and largely bottom-dwelling lifestyle. These fish are generally solitary and spend most of their time near the riverbed or seabed, where they use their sensitive barbels to detect prey in murky waters. Their diet consists mainly of invertebrates, small fish, crustaceans, and other bottom-dwelling organisms, which they suck up using their toothless, protrusible mouths.
+
+            Sturgeons are migratory, with many species exhibiting anadromous behavior—spawning in freshwater after spending much of their lives in brackish or marine environments. Their spawning migrations can be triggered by changes in water temperature, flow rate, or seasonal cues. During spawning season, they return to the same rivers where they were born, often traveling hundreds of miles upstream.
+
+            Generally non-aggressive, sturgeons are known for their longevity and late sexual maturity, which means they reproduce infrequently—sometimes only once every few years. This reproductive strategy makes their populations especially vulnerable to overharvesting and habitat disruption.
+        </p>
+        </div>
+            
+        <div id="caresheet">
+            <div id="caresheettitle">Sturgeon</div>
+            <img class="img1" src="sturgeon.png" alt="Sturgeon Image" style="width:100px;height:100px;">
+            <p><strong>Tank Size:</strong> not meant for aquariums<br><strong>Number of Fish in a Tank:</strong> N/A<br><strong>Lifespan:</strong> 
+            up to 100 years<br><strong>Water temperature:</strong> 50°F to 68°F<br><strong>pH level:</strong> 6.0 to 8.5
+            <br><strong>Water hardness:</strong> 50 to 400 ppm<br><strong>Diet:</strong> Crayfish, shrimp, snails, plants, insects, larvae, worms, slugs, clams, fish, frogs, and lamprey</p>
+        </div>
+
+        <div id="backarrow"><img src="backarrow-removebg-preview.png" alt="Back Arrow" style="float:right;width:100px;height:100px;" usemap="#arrowmap"></div>
+        
+        <map name="arrowmap">
+            <area shape="rect" coords="0,0,100,100" alt="back arrow" href="index.html">
+        </map>
+        
+    </body>
+</html>
