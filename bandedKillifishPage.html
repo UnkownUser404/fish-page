@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Basic Web Page</title>
+        
+        <style>
+            Body {background-color: lightblue; }
+            h1 {font-size:"50px"; font-family: "Monaco", "Courier New", monospace; padding:10px; text-align:center;}
+            #backarrow{
+                position:fixed;
+                bottom:0;
+                right:0;
+            }
+            #description{
+                position: static;
+                border:2px black;
+                width:1200px;
+                height:220px;
+                top:170px;
+                right:15px
+            }
+            #caresheet{
+                position: absolute;
+                border:2px solid black;
+                background-color: white;
+                width:200px;
+                height:400px;
+                top:170px;
+                left:1220px;
+                margin-right: 20px;
+            }
+            #caresheettitle{
+                position: static;
+                text-align: center;
+                background-color: black;
+                color: white;
+                width: 200px;
+                height: 20px;
+                top:0px;
+                left:0px;
+            }
+
+            .img1{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 5px;
+            }
+            
+        </style>
+    </head>
+    <body>
+        
+        <h1>Welcome to the Banded Killifish page!</h1>
+        <div id="description">
+        <h2>Description</h2>
+        <hr noshade>       
+        <p>
+            The banded killifish (Fundulus diaphanus) is a small, freshwater fish native to North America, commonly found in slow-moving streams, ponds, and lakes with abundant vegetation. It typically measures between 2 to 4 inches (5 to 10 cm) in length and is easily recognized by its slender body adorned with vertical, dark bands that run along its silvery to olive-colored sides. Males are usually more vividly marked, especially during the breeding season, while females have subtler striping.
+
+            Adapted to a range of environments, the banded killifish is tolerant of varying temperatures and low oxygen levels, making it a resilient species. It feeds on small aquatic insects, crustaceans, and plant material, playing an important role in the aquatic food web.
+
+            Social by nature, banded killifish often swim in schools, which helps them avoid predators. They are also known for their intriguing breeding behavior, where males display to attract females and defend small territories during spawning. Due to their adaptability and ease of care, they are sometimes used in educational and ecological studies.
+        </p>
+        </div>
+
+        <div id="description">
+        <h2>Behavior</h2>
+        <hr noshade>      
+        <p>
+            Banded killifish behavior is characterized by sociality, adaptability, and unique reproductive strategies. These fish are highly gregarious, typically found in tight schools that provide protection from predators and help in foraging. Schooling also plays a role in their communication and social structure, with individuals using body posture and movement to signal each other.
+
+            They are diurnal, meaning they are active during the day, and spend most of their time in shallow, vegetated waters, where they forage for insects, crustaceans, and algae. Their behavior reflects a strong preference for habitats with low currents and dense aquatic plants, which offer both food and cover.
+
+            During the breeding season (usually in late spring and summer), males become more territorial and display brighter coloration. They perform courtship displays—often involving darting movements and body posturing—to attract females. Males will defend small patches of vegetation where spawning occurs. Females lay adhesive eggs that stick to submerged plants, and after spawning, both sexes typically abandon the eggs, leaving them to develop independently.
+
+            Banded killifish are also known for their environmental resilience, showing tolerance to low oxygen conditions and varying water qualities. This behavioral flexibility allows them to thrive in both pristine and disturbed ecosystems.
+        </p>
+        </div>
+            
+        <div id="caresheet">
+            <div id="caresheettitle">Banded Killifish</div>
+            <img class="img1" src="bandedKillifish.png" alt="Banded Killifish Image" style="width:100px;height:100px;">
+            <p><strong>Tank Size:</strong> 55+ gallons<br><strong>Number of Fish in a Tank:</strong> 6+<br><strong>Lifespan:</strong> 
+            ~2 years<br><strong>Water temperature:</strong> 70°F to 75°F<br><strong>pH level:</strong> 7.0 to 8.0
+            <br><strong>Water hardness:</strong> 120 to 160 ppm<br><strong>Diet:</strong> Small insects, crustaceans, and mollusks</p>
+        </div>
+
+        <div id="backarrow"><img src="backarrow-removebg-preview.png" alt="Back Arrow" style="float:right;width:100px;height:100px;" usemap="#arrowmap"></div>
+        
+        <map name="arrowmap">
+            <area shape="rect" coords="0,0,100,100" alt="back arrow" href="index.html">
+        </map>
+        
+    </body>
+</html>
