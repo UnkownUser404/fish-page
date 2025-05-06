@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Basic Web Page</title>
+        
+        <style>
+            Body {background-color: lightblue; }
+            h1 {font-size:"50px"; font-family: "Monaco", "Courier New", monospace; padding:10px; text-align:center;}
+            #backarrow{
+                position:fixed;
+                bottom:0;
+                right:0;
+            }
+            #description{
+                position: static;
+                border:2px black;
+                width:1200px;
+                height:220px;
+                top:170px;
+                right:15px
+            }
+            #caresheet{
+                position: absolute;
+                border:2px solid black;
+                background-color: white;
+                width:200px;
+                height:400px;
+                top:170px;
+                left:1220px;
+                margin-right: 20px;
+            }
+            #caresheettitle{
+                position: static;
+                text-align: center;
+                background-color: black;
+                color: white;
+                width: 200px;
+                height: 20px;
+                top:0px;
+                left:0px;
+            }
+
+            .img1{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 5px;
+            }
+            
+        </style>
+    </head>
+    <body>
+        
+        <h1>Welcome to the Bream page!</h1>
+        <div id="description">
+        <h2>Description</h2>
+        <hr noshade>       
+        <p>
+            Breams are a group of freshwater and marine fish known for their deep, laterally compressed bodies and mild, white flesh. The term "bream" can refer to various species within several families, but most commonly it includes fish from the Abramis genus (such as the common bream, Abramis brama) in freshwater, and species like the sea bream (Sparidae family) in saltwater environments.
+
+            Freshwater breams are typically found in slow-moving rivers and lakes across Europe and parts of Asia. They are bottom feeders, eating invertebrates, plant material, and detritus. Sea breams, like the popular gilt-head bream (Sparus aurata), are prized in Mediterranean cuisine for their delicate flavor and are often farmed for food.
+
+            Breams are generally silver to bronze in color, with a small head, long dorsal fin, and a body shape that makes them easy to identify. They are popular among anglers and are often caught using bait such as worms, maggots, or corn.
+        </p>
+        </div>
+
+        <div id="description">
+        <h2>Behavior</h2>
+        <hr noshade>      
+        <p>
+            Bream are social, schooling fish that exhibit calm and predictable behavior, often gathering in large groups, especially during feeding or spawning. In freshwater species like the common bream (Abramis brama), they tend to inhabit slow-moving or still waters such as lakes, canals, and lowland rivers. These fish prefer murky environments where they can root through sediment on the bottom in search of food like insect larvae, worms, and detritus.
+
+            Bream are bottom feeders by nature and use their sensitive lips to sift through the substrate. They typically feed most actively during the early morning and late evening, though in warm conditions, they may feed throughout the day. They are also known to be more active in warmer temperatures and may become sluggish or move to deeper water in colder months.
+
+            During spawning, which usually occurs in late spring to early summer when water temperatures rise above 17°C (about 63°F), bream migrate to shallow, weedy areas. Males often develop small white breeding tubercles on their heads and bodies and may become territorial. Spawning behavior involves a lot of splashing as the fish gather in tight groups to lay and fertilize eggs among aquatic vegetation.
+
+            Overall, bream are relatively peaceful, slow-moving fish with predictable routines, which makes them a favorite among both anglers and fish farmers.
+        </p>
+        </div>
+            
+        <div id="caresheet">
+            <div id="caresheettitle">Bream</div>
+            <img class="img1" src="bream.png" alt="Bream Image" style="width:100px;height:100px;">
+            <p><strong>Tank Size:</strong> 150+ gallons<br><strong>Number of Fish in a Tank:</strong> 2+<br><strong>Lifespan:</strong> 
+            ~20 years<br><strong>Water temperature:</strong> 54°F to 68°F<br><strong>pH level:</strong> 8.1 to 8.4
+            <br><strong>Water hardness:</strong> 20 to 35 dKH<br><strong>Diet:</strong> insect larvae, worms, small crustaceans, zooplankton, algae, detritus, aquatic plants, snails, fish eggs, small fish, mollusks, sea urchins, and plankton</p>
+        </div>
+
+        <div id="backarrow"><img src="backarrow-removebg-preview.png" alt="Back Arrow" style="float:right;width:100px;height:100px;" usemap="#arrowmap"></div>
+        
+        <map name="arrowmap">
+            <area shape="rect" coords="0,0,100,100" alt="back arrow" href="index.html">
+        </map>
+        
+    </body>
+</html>
