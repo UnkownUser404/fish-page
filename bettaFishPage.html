@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Basic Web Page</title>
+        
+        <style>
+            Body {background-color: lightblue; }
+            h1 {font-size:"50px"; font-family: "Monaco", "Courier New", monospace; padding:10px; text-align:center;}
+            #backarrow{
+                position:fixed;
+                bottom:0;
+                right:0;
+            }
+            #description{
+                position: static;
+                border:2px black;
+                width:1200px;
+                height:220px;
+                top:170px;
+                right:15px
+            }
+            #caresheet{
+                position: absolute;
+                border:2px solid black;
+                background-color: white;
+                width:200px;
+                height:400px;
+                top:170px;
+                left:1220px;
+                margin-right: 20px;
+            }
+            #caresheettitle{
+                position: static;
+                text-align: center;
+                background-color: black;
+                color: white;
+                width: 200px;
+                height: 20px;
+                top:0px;
+                left:0px;
+            }
+
+            .img1{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 5px;
+            }
+            
+        </style>
+    </head>
+    <body>
+        
+        <h1>Welcome to the Betta Fish page!</h1>
+        <div id="description">
+        <h2>Description</h2>
+        <hr noshade>       
+        <p>
+          Betta fish, also known as Siamese fighting fish, are small, brightly colored freshwater fish native to Southeast Asia. Renowned for their vivid hues and long, flowing fins, bettas are a favorite among aquarium enthusiasts. Males are especially eye-catching, often displaying a range of colors including red, blue, purple, and white. Despite their beauty, male bettas are highly territorial and aggressive toward other males, which is why they are typically housed alone. Bettas are labyrinth fish, meaning they can breathe air from the surface thanks to a specialized organ called the labyrinth. They thrive in warm water environments and prefer well-planted tanks with hiding spots. Hardy and relatively easy to care for, bettas are both a stunning and rewarding choice for both beginner and experienced fish keepers.
+        </p>
+        </div>
+
+        <div id="description">
+        <h2>Behavior</h2>
+        <hr noshade>      
+        <p>
+            
+          Betta fish behavior is unique and often quite expressive, making them fascinating to observe. Known for their territorial nature, especially among males, bettas will often flare their gill covers and spread their fins in a display of dominance when they feel threatened or see a rival. This behavior is most common when two males are placed near each other, even if separated by glass. Despite their aggression toward other males, bettas can be curious and interactive with humans, often recognizing their owners and swimming to the front of the tank during feeding times.
+
+          They are generally solitary fish but enjoy exploring their environment. Bettas often rest on plant leaves or tank decorations and may occasionally lie still, which can be mistaken for illness but is usually normal. They also exhibit bubble nest building, particularly males, which is a sign of breeding readiness and overall health. These nests are clusters of bubbles created at the water's surface and indicate the fish feels secure in its environment.
+
+          While bettas can live with certain peaceful tank mates in a carefully managed environment, their behavior should always be monitored to prevent stress or aggression. Their behavior often reflects their health and mood, making them excellent communicators through body language.
+        </p>
+        </div>
+            
+        <div id="caresheet">
+            <div id="caresheettitle">Betta Fish</div>
+            <img class="img1" src="bettaFish.png" alt="Betta Fish Image" style="width:100px;height:100px;">
+            <p><strong>Tank Size:</strong> 5+ gallons<br><strong>Number of Fish in a Tank:</strong> 1<br><strong>Lifespan:</strong> 
+            4 years<br><strong>Water temperature:</strong> 78°F to 80°F<br><strong>pH level:</strong> 6.5 to 7.5
+            <br><strong>Water hardness:</strong> 5 to 20 dGH<br><strong>Diet:</strong> high-quality pellets, flakes, freeze dried, frozen and live foods</p>
+        </div>
+
+        <div id="backarrow"><img src="backarrow-removebg-preview.png" alt="Back Arrow" style="float:right;width:100px;height:100px;" usemap="#arrowmap"></div>
+        
+        <map name="arrowmap">
+            <area shape="rect" coords="0,0,100,100" alt="back arrow" href="index.html">
+        </map>
+        
+    </body>
+</html>
