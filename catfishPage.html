@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Basic Web Page</title>
+        
+        <style>
+            Body {background-color: lightblue; }
+            h1 {font-size:"50px"; font-family: "Monaco", "Courier New", monospace; padding:10px; text-align:center;}
+            #backarrow{
+                position:fixed;
+                bottom:0;
+                right:0;
+            }
+            #description{
+                position: static;
+                border:2px black;
+                width:1200px;
+                height:220px;
+                top:170px;
+                right:15px
+            }
+            #caresheet{
+                position: absolute;
+                border:2px solid black;
+                background-color: white;
+                width:200px;
+                height:400px;
+                top:170px;
+                left:1220px;
+                margin-right: 20px;
+            }
+            #caresheettitle{
+                position: static;
+                text-align: center;
+                background-color: black;
+                color: white;
+                width: 200px;
+                height: 20px;
+                top:0px;
+                left:0px;
+            }
+
+            .img1{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 5px;
+            }
+            
+        </style>
+    </head>
+    <body>
+        
+        <h1>Welcome to the Catfish page!</h1>
+        <div id="description">
+        <h2>Description</h2>
+        <hr noshade>       
+        <p>
+            Catfish are a diverse group of ray-finned fish known for their distinctive whisker-like barbels around the mouth, which resemble a cat's whiskers—hence the name. Found in freshwater and some coastal regions worldwide, catfish range in size from a few inches to several feet long, with the Mekong giant catfish being one of the largest freshwater fish on Earth.
+
+            They belong to the order Siluriformes and include over 3,000 species, varying widely in appearance, behavior, and habitat. Many catfish are bottom-dwellers, using their barbels to sense food in murky waters. Some are popular in aquaculture and cuisine, especially in regions like the southern United States, Southeast Asia, and parts of Africa.
+
+            Catfish can be scaleless, and some species have sharp spines in their fins, which can deliver a painful sting as a defense mechanism. They are generally omnivorous, feeding on plants, smaller fish, and detritus. Due to their adaptability and hardiness, catfish thrive in a variety of environments, making them important both ecologically and economically.
+        </p>
+        </div>
+
+        <div id="description">
+        <h2>Behavior</h2>
+        <hr noshade>      
+        <p>
+            Catfish exhibit a wide range of behaviors depending on their species, habitat, and environmental conditions. One of their most distinctive behavioral traits is their reliance on barbels—fleshy, whisker-like appendages around their mouths—to detect food. These barbels are highly sensitive and help catfish navigate and forage in murky or dark waters where visibility is low.
+
+            Most catfish are bottom-dwellers, spending their time near the substrate of rivers, lakes, and ponds. They are often nocturnal, becoming more active at night to hunt for food, which includes insects, smaller fish, algae, and decaying organic matter. This scavenging behavior makes them effective ecosystem cleaners.
+
+            Catfish are generally solitary, though some species may form loose groups, especially when food is abundant or during spawning seasons. Many species are territorial and may defend their feeding or nesting areas.
+
+            During reproduction, some species exhibit interesting parental behaviors. For instance, male catfish of certain types will guard nests and care for the eggs until they hatch. Others may even carry eggs or young in their mouths (a behavior known as mouthbrooding).
+
+            Some catfish also display adaptive behaviors to survive in low-oxygen environments by breathing air, using specialized structures in their gut or gills. A few species, like electric catfish, can generate electric shocks to stun prey or deter predators.
+
+            Overall, catfish are highly adaptable, resourceful, and exhibit complex behaviors that allow them to thrive in a variety of aquatic environments.
+        </p>
+        </div>
+            
+        <div id="caresheet">
+            <div id="caresheettitle">Catfish</div>
+            <img class="img1" src="catfish.png" alt="Catfish Image" style="width:100px;height:100px;">
+            <p><strong>Tank Size:</strong> 100+ gallons<br><strong>Number of Fish in a Tank:</strong> Any number<br><strong>Lifespan:</strong> 
+            5-20 years<br><strong>Water temperature:</strong> 65°F to 76°F<br><strong>pH level:</strong> 6.5 to 8.0
+            <br><strong>Water hardness:</strong> 50 to 150 ppm<br><strong>Diet:</strong> small fish, mollusks, insects, crayfish, snails, clams, and frogs</p>
+        </div>
+
+        <div id="backarrow"><img src="backarrow-removebg-preview.png" alt="Back Arrow" style="float:right;width:100px;height:100px;" usemap="#arrowmap"></div>
+        
+        <map name="arrowmap">
+            <area shape="rect" coords="0,0,100,100" alt="back arrow" href="index.html">
+        </map>
+        
+    </body>
+</html>
