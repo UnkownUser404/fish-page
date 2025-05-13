@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Basic Web Page</title>
+        
+        <style>
+            Body {background-color: lightblue; }
+            h1 {font-size:"50px"; font-family: "Monaco", "Courier New", monospace; padding:10px; text-align:center;}
+            #backarrow{
+                position:fixed;
+                bottom:0;
+                right:0;
+            }
+            #description{
+                position: static;
+                border:2px black;
+                width:1200px;
+                height:220px;
+                top:170px;
+                right:15px
+            }
+            #caresheet{
+                position: absolute;
+                border:2px solid black;
+                background-color: white;
+                width:200px;
+                height:400px;
+                top:170px;
+                left:1220px;
+                margin-right: 20px;
+            }
+            #caresheettitle{
+                position: static;
+                text-align: center;
+                background-color: black;
+                color: white;
+                width: 200px;
+                height: 20px;
+                top:0px;
+                left:0px;
+            }
+
+            .img1{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 5px;
+            }
+            
+        </style>
+    </head>
+    <body>
+        
+        <h1>Welcome to the Axolotl page!</h1>
+        <div id="description">
+        <h2>Description</h2>
+        <hr noshade>       
+        <p>
+            Axolotls, also known as Ambystoma mexicanum, are fascinating amphibians native to the lake complex of Xochimilco near Mexico City. Unlike most amphibians, axolotls remain in their aquatic larval form throughout their lives, a condition known as neoteny. This means they retain their gills and live entirely underwater, even as adults.
+
+            They are best known for their unique appearance—feathery external gills that fan out from the sides of their heads, wide mouths that resemble a smile, and smooth, soft skin. Axolotls can come in a variety of colors, from wild-type (dark with speckles) to leucistic (pale pink with red gills) and even golden or albino.
+
+            One of the most remarkable traits of axolotls is their regenerative ability. They can regrow entire limbs, spinal cord, heart tissue, and even parts of their brain without scarring, making them a valuable subject in scientific research.
+
+            Though once common, wild axolotls are now critically endangered due to habitat loss, pollution, and invasive species. However, they are widely bred in captivity for research and as exotic pets. Their combination of scientific importance and unique charm has made them a symbol of conservation efforts in Mexico and around the world.
+        </p>
+        </div>
+
+        <div id="description">
+        <h2>Behavior</h2>
+        <hr noshade>      
+        <p>
+            Axolotl behavior is generally calm, solitary, and slow-paced. These amphibians are not aggressive and typically spend their time exploring their surroundings, resting on the bottom of their habitat, or slowly swimming around in search of food. They are most active at night (nocturnal), though they can be observed moving during the day in captivity.
+
+            Axolotls are carnivorous and use a method called suction feeding to eat. They snap their mouths open quickly to suck in prey such as worms, insects, small fish, or pellets provided in captivity. They don’t have true teeth, so instead of chewing, they swallow food whole.
+
+            Socially, axolotls are not particularly interactive with each other and can even become nippy if housed together, especially when young or if food is limited. It's not uncommon for axolotls to bite at each other’s limbs or gills, though thanks to their regenerative abilities, injuries often heal completely. Because of this, it’s usually recommended to house them separately or with care.
+
+            Axolotls also exhibit some interesting behaviors like floating, either from air in their digestive system or out of curiosity, and burrowing slightly into substrate. They may also wave their gills to increase oxygen flow.
+
+            Overall, axolotls are quiet, curious creatures whose gentle nature and fascinating biology make them especially interesting to observe.
+        </p>
+        </div>
+            
+        <div id="caresheet">
+            <div id="caresheettitle">Axolotl</div>
+            <img class="img1" src="axolotl.png" alt="Axolotl Image" style="width:100px;height:100px;">
+            <p><strong>Tank Size:</strong> 40+ gallons<br><strong>Number of Fish in a Tank:</strong> 1+<br><strong>Lifespan:</strong> 
+            10-15 years<br><strong>Water temperature:</strong> 60°F to 68°F<br><strong>pH level:</strong> 7.4 to 7.6
+            <br><strong>Water hardness:</strong> 125-250ppm<br><strong>Diet:</strong> insect larvae, worms, and crustaceans</p>
+        </div>
+
+        <div id="backarrow"><img src="backarrow-removebg-preview.png" alt="Back Arrow" style="float:right;width:100px;height:100px;" usemap="#arrowmap"></div>
+        
+        <map name="arrowmap">
+            <area shape="rect" coords="0,0,100,100" alt="back arrow" href="index.html">
+        </map>
+        
+    </body>
+</html>
