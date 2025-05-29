@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Basic Web Page</title>
+        
+        <style>
+            Body {background-color: lightblue; }
+            h1 {font-size:"50px"; font-family: "Monaco", "Courier New", monospace; padding:10px; text-align:center;}
+            #backarrow{
+                position:fixed;
+                bottom:0;
+                right:0;
+            }
+            #description{
+                position: static;
+                border:2px black;
+                width:1200px;
+                height:220px;
+                top:170px;
+                right:15px
+            }
+            #caresheet{
+                position: absolute;
+                border:2px solid black;
+                background-color: white;
+                width:200px;
+                height:400px;
+                top:170px;
+                left:1220px;
+                margin-right: 20px;
+            }
+            #caresheettitle{
+                position: static;
+                text-align: center;
+                background-color: black;
+                color: white;
+                width: 200px;
+                height: 20px;
+                top:0px;
+                left:0px;
+            }
+
+            .img1{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 5px;
+            }
+            
+        </style>
+    </head>
+    <body>
+        
+        <h1>Welcome to the Leech page!</h1>
+        <div id="description">
+        <h2>Description</h2>
+        <hr noshade>       
+        <p>
+            Leeches are segmented worms belonging to the phylum Annelida and the subclass Hirudinea. Found in a variety of freshwater, terrestrial, and marine environments, leeches are best known for their parasitic feeding habits, although many are predators or scavengers. They typically have soft, muscular bodies with a sucker at each end—one for attachment and the other for feeding.
+
+            Many leeches feed on the blood of vertebrates, using sharp jaws or a proboscis to pierce the skin. Their saliva contains anticoagulants, anesthetics, and enzymes that prevent clotting and reduce pain, allowing them to feed undetected. While often viewed with discomfort, leeches have historically played a role in medicine. In modern times, they are used in microsurgery and reconstructive procedures to improve blood circulation and prevent clotting.
+
+            Despite their unsettling reputation, leeches are ecologically important as both predators and prey and are indicators of environmental health in aquatic ecosystems.
+        </p>
+        </div>
+
+        <div id="description">
+        <h2>Behavior</h2>
+        <hr noshade>      
+        <p>
+            Leech behavior varies widely depending on the species, but common patterns include feeding, movement, and reproductive habits. Many leeches are nocturnal and become active at night, especially when searching for a host or prey. Their behavior is often guided by environmental cues such as vibrations, heat, and chemical signals in the water or air, which help them detect nearby animals.
+
+            When feeding, parasitic leeches attach to a host using their suckers, with some species making small incisions using razor-sharp jaws, while others insert a needle-like proboscis. They release anticoagulants and anesthetics through their saliva to keep blood flowing and reduce the chance of detection. After feeding, they can remain full for months before needing to feed again.
+
+            Leeches move using a looping, "inchworm-like" motion called locomotion, anchoring with one sucker and stretching forward with the other. Some species swim with an undulating motion.
+
+            Socially, most leeches are solitary, though some may congregate in areas with abundant food sources. Reproductively, they are hermaphrodites—each individual has both male and female reproductive organs—and often engage in mutual fertilization during mating.
+
+            Overall, leech behavior is adaptive and specialized, allowing them to survive in diverse environments and exploit a range of food sources.
+
+        </p>
+        </div>
+            
+        <div id="caresheet">
+            <div id="caresheettitle">Leech</div>
+            <img class="img1" src="leech.png" alt="Leech Image" style="width:100px;height:100px;">
+            <p><strong>Tank Size:</strong> N/A<br><strong>Number of Fish in a Tank:</strong> N/A<br><strong>Lifespan:</strong> 
+            2-8 years<br><strong>Water temperature:</strong> 60°F to 65°F<br><strong>pH level:</strong> 7.0 to 7.5
+            <br><strong>Water hardness:</strong> 0 to 25 dKH<br><strong>Diet:</strong> blood from vertebrates</p>
+        </div>
+
+        <div id="backarrow"><img src="backarrow-removebg-preview.png" alt="Back Arrow" style="float:right;width:100px;height:100px;" usemap="#arrowmap"></div>
+        
+        <map name="arrowmap">
+            <area shape="rect" coords="0,0,100,100" alt="back arrow" href="index.html">
+        </map>
+        
+    </body>
+</html>
